@@ -72,12 +72,7 @@ education:
     date_end: 2014-12-31
     summary: |
       Graduated with honors, CGPA: 3.51 / 4
-  - area: BSc, Industrial Engineering (discontinued)
-    institution: Sharif University of Technology
-    date_start: 2004-01-01
-    date_end: 2008-12-31
-    summary: |
-      Entered with a ranking of 353 (top 1%) in the national university entrance exam.
+
 
 work:
   - position: Assistant Professor
@@ -172,24 +167,68 @@ work:
       Documenting and revising Standard Operating Procedures for brainstorming sessions.
 
 skills:
-  - name: Programming
+  - name: Programming Languages
     items:
       - name: Python
-        description: PyTorch, Gurobi, Scikit-learn
+        description: 'Primary language'
         percent: 100
         icon: code-bracket
-      - name: Optimization
-        description: CPLEX, Gurobi, OR Tools
-        percent: 95
+      - name: R, MATLAB, Java
+        description: 'Statistical & scientific computing'
+        percent: 85
+        icon: code-bracket
+  - name: ML & Frameworks
+    items:
+      - name: PyTorch
+        description: 'PyTorch Geometric for GNNs'
+        percent: 100
+        icon: code-bracket
+      - name: TensorFlow, Scikit-learn
+        description: 'Deep learning & ML frameworks'
+        percent: 90
         icon: chart-bar
-      - name: GIS
-        description: QGIS, GeoPandas, NetworkX
+  - name: GIS & Geospatial
+    items:
+      - name: GeoPandas, NetworkX
+        description: 'Spatial data & network analysis'
+        percent: 95
+        icon: map
+      - name: QGIS, ArcGIS
+        description: 'GIS software & tools'
         percent: 90
         icon: map
-      - name: Simulation
-        description: AnyLogic, Vensim
+      - name: Shapely, Fiona, Folium
+        description: 'Geospatial libraries'
+        percent: 85
+        icon: map
+  - name: Optimization & Simulation
+    items:
+      - name: CPLEX, Gurobi
+        description: 'Mathematical optimization'
+        percent: 100
+        icon: chart-bar
+      - name: GAMS, OR Tools
+        description: 'Optimization modeling'
+        percent: 90
+        icon: chart-bar
+      - name: Arena, AnyLogic, Vensim
+        description: 'Simulation software'
         percent: 85
         icon: cpu-chip
+      - name: OmniTrans
+        description: 'Transport & spatial modeling'
+        percent: 80
+        icon: map
+  - name: DevOps & Tools
+    items:
+      - name: Git, GitLab, LaTeX
+        description: 'Version control & documentation'
+        percent: 95
+        icon: code-bracket
+      - name: Azure, GCP, AWS
+        description: 'Cloud services'
+        percent: 80
+        icon: cloud
   - name: Languages
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -199,24 +238,24 @@ skills:
         percent: 100
         icon: language
       - name: English
-        description: 'C2 (Full Proficiency)'
+        description: 'C2 Proficiency (all skills)'
         percent: 100
         icon: language
       - name: Azeri
-        description: 'C2 (Bilingual)'
+        description: 'C2 (L, I, P), C1 (R, W)'
         percent: 100
         icon: language
       - name: Turkish
-        description: 'B2+ (Advanced)'
+        description: 'B2+ (L, I, P), B2 (R, W)'
         percent: 80
         icon: language
       - name: Dutch
-        description: 'B1+ (Intermediate)'
-        percent: 60
+        description: 'B1+ (all skills)'
+        percent: 70
         icon: language
       - name: French
-        description: 'B1 (Intermediate)'
-        percent: 50
+        description: 'B1 (all skills)'
+        percent: 60
         icon: language
 
 awards: []
