@@ -227,6 +227,8 @@ skills:
         description: 'Version control & documentation'
         percent: 95
         icon: code-bracket
+  - name: Cloud
+    items:
       - name: Azure, GCP, AWS
         description: 'Cloud services'
         percent: 80
