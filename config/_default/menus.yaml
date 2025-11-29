@@ -22,3 +22,6 @@ main:
   - name: Experience
     url: /experience/
     weight: 60
+  - name: Skills
+    url: /skills/
+    weight: 70
