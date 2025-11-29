@@ -3,63 +3,25 @@ title: Skills & Training
 summary: Technical skills, languages, professional training, and code repositories
 type: landing
 
+design:
+  spacing: '5rem'
+
 sections:
-  - block: features
+  - block: resume-skills
     content:
       title: Technical Skills
-      items:
-        - name: Programming
-          description: Python, R, MATLAB, Java
-          icon: code-bracket
-          icon_pack: hero
-        - name: ML & Frameworks
-          description: PyTorch (Geometric), TensorFlow, Scikit-learn
-          icon: cpu-chip
-          icon_pack: hero
-        - name: GIS & Geospatial
-          description: GeoPandas, NetworkX, Shapely, Fiona, Folium, QGIS, ArcGIS
-          icon: map
-          icon_pack: hero
-        - name: Optimization
-          description: CPLEX, Gurobi, GAMS, OR Tools
-          icon: chart-bar
-          icon_pack: hero
-        - name: Simulation
-          description: Arena, AnyLogic, Vensim, OmniTrans
-          icon: beaker
-          icon_pack: hero
-        - name: DevOps & Cloud
-          description: Git, GitLab, LaTeX, Azure, Google Cloud, AWS
-          icon: cloud
-          icon_pack: hero
+      username: admin
     design:
-      columns: '3'
+      show_skill_percentage: false
   
-  - block: markdown
+  - block: resume-languages
     content:
       title: Languages
-      text: |
-        | Language | Proficiency |
-        |----------|-------------|
-        | **Persian (Farsi)** | Mother tongue |
-        | **English** | C2 Proficiency (all skills) |
-        | **Azeri** | C2 (L, I, P), C1 (R, W) |
-        | **Turkish** | B2+ (L, I, P), B2 (R, W) |
-        | **Dutch** | B1+ (all skills) |
-        | **French** | B1 (all skills) |
-    design:
-      columns: '1'
+      username: admin
   
   - block: markdown
     content:
       title: Professional Development
-      text: ''
-    design:
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title: ''
       text: |
         ### Discipline Knowledge
         
