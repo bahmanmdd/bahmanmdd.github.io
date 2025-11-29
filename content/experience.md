@@ -6,123 +6,107 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: experience
+  - block: markdown
     content:
       title: Professional Experience
-      items:
-        - title: Assistant Professor
-          company: Université Gustave Eiffel & ENTPE
-          company_url: ''
-          location: Lyon, France
-          date_start: '2023-01-01'
-          date_end: ''
-          description: |
-            Learning-based optimization in transport and energy. Research on zero-emission multimodal mobility, graph neural networks, and transport network design. Teaching DLDNA and DOTNET courses. Supervising 3 PhD students.
+      text: |
+        ### Assistant Professor
+        **Université Gustave Eiffel & ENTPE** | Lyon, France  
+        *December 2023 – Present*
         
-        - title: Postdoctoral Researcher
-          company: Delft University of Technology
-          company_url: ''
-          location: Delft, Netherlands
-          date_start: '2022-01-01'
-          date_end: '2023-12-31'
-          description: |
-            Work Package lead for DiREC project on digital roads for connected and automated vehicles. Data-driven optimization methods. Teaching optimization and transport engineering.
+        Learning-based optimization in transport and energy. Research on zero-emission multimodal mobility, graph neural networks, and transport network design. Teaching DLDNA and DOTNET courses. Supervising 3 PhD students.
         
-        - title: Researcher & Lecturer
-          company: HZ University of Applied Sciences
-          company_url: ''
-          location: Netherlands
-          date_start: '2021-01-01'
-          date_end: '2022-01-31'
-          description: |
-            Work Package lead for 5G-Blueprint and CATALYST projects on automated and zero-emission logistics. Teaching coordinator for autonomous transport solutions.
+        ---
         
-        - title: PhD Candidate
-          company: Delft University of Technology
-          company_url: ''
-          location: Delft, Netherlands
-          date_start: '2016-01-01'
-          date_end: '2021-01-31'
-          description: |
-            Fully funded by NWO grant. Research on design and optimization of road networks for automated vehicles. Teaching assistant for transport engineering courses.
+        ### Postdoctoral Researcher
+        **Delft University of Technology** | Delft, Netherlands  
+        *January 2022 – December 2023*
         
-        - title: Research & Teaching Assistant
-          company: Istanbul Sehir University
-          company_url: ''
-          location: Istanbul, Turkey
-          date_start: '2014-01-01'
-          date_end: '2016-06-30'
-          description: |
-            Data-driven decision support systems for transportation planners. Teaching assistant for machine learning, simulation, and statistics courses.
+        Work Package lead for DiREC project on digital roads for connected and automated vehicles. Data-driven optimization methods. Teaching optimization and transport engineering.
         
-        - title: Software Analyst
-          company: Nur ICT
-          company_url: ''
-          location: Tehran, Iran
-          date_start: '2010-01-01'
-          date_end: '2012-12-31'
-          description: |
-            Specifying customer needs for transport & logistics service providers. Quality deployment of tailored ERP platforms.
+        ---
         
-        - title: Junior Analyst
-          company: National Petrochemical Company
-          company_url: ''
-          location: Tehran, Iran
-          date_start: '2009-01-01'
-          date_end: '2010-12-31'
-          description: |
-            Research and Development Department. Coordinating brainstorming sessions for strategic decision-making.
+        ### Researcher & Lecturer
+        **HZ University of Applied Sciences** | Netherlands  
+        *January 2021 – January 2022*
         
-        - title: Junior Analyst
-          company: Institute of Technological Research and Development
-          company_url: ''
-          location: Tehran, Iran
-          date_start: '2008-01-01'
-          date_end: '2009-12-31'
-          description: |
-            Documenting and revising Standard Operating Procedures for brainstorming sessions.
+        Work Package lead for 5G-Blueprint and CATALYST projects on automated and zero-emission logistics. Teaching coordinator for autonomous transport solutions.
+        
+        ---
+        
+        ### PhD Candidate
+        **Delft University of Technology** | Delft, Netherlands  
+        *August 2016 – January 2021*
+        
+        Fully funded by NWO grant. Research on design and optimization of road networks for automated vehicles. Teaching assistant for transport engineering courses.
+        
+        ---
+        
+        ### Research & Teaching Assistant
+        **Istanbul Sehir University** | Istanbul, Turkey  
+        *January 2015 – June 2016*
+        
+        Data-driven decision support systems for transportation planners. Teaching assistant for machine learning, simulation, and statistics courses.
+        
+        ---
+        
+        ### Software Analyst
+        **Nur ICT** | Tehran, Iran  
+        *January 2010 – December 2012*
+        
+        Specifying customer needs for transport & logistics service providers. Quality deployment of tailored ERP platforms.
+        
+        ---
+        
+        ### Junior Analyst
+        **National Petrochemical Company** | Tehran, Iran  
+        *January 2009 – December 2010*
+        
+        Research and Development Department. Coordinating brainstorming sessions for strategic decision-making.
+        
+        ---
+        
+        ### Junior Analyst
+        **Institute of Technological Research and Development** | Tehran, Iran  
+        *January 2008 – December 2009*
+        
+        Documenting and revising Standard Operating Procedures for brainstorming sessions.
     design:
       columns: '1'
   
-  - block: experience
+  - block: markdown
     content:
       title: Education
-      items:
-        - title: PhD, Design and optimization of road networks for automated vehicles
-          company: Delft University of Technology
-          company_url: ''
-          location: Delft, Netherlands
-          date_start: '2016-08-01'
-          date_end: '2021-01-31'
-          description: |
-            Fully funded by an NWO grant.
+      text: |
+        ### PhD, Design and optimization of road networks for automated vehicles
+        **Delft University of Technology** | Delft, Netherlands  
+        *August 2016 – January 2021*
         
-        - title: MSc, Industrial and Systems Engineering
-          company: Istanbul Sehir University
-          company_url: ''
-          location: Istanbul, Turkey
-          date_start: '2014-01-01'
-          date_end: '2016-12-31'
-          description: |
-            Full scholarship, CGPA: 3.93 / 4
+        Fully funded by an NWO grant.
         
-        - title: BSc, Industrial Engineering
-          company: Istanbul Sehir University
-          company_url: ''
-          location: Istanbul, Turkey
-          date_start: '2012-01-01'
-          date_end: '2014-12-31'
-          description: |
-            Graduated with honors, CGPA: 3.51 / 4
+        ---
         
-        - title: BSc, Industrial Engineering (Discontinued)
-          company: Sharif University of Technology
-          company_url: ''
-          location: Tehran, Iran
-          date_start: '2004-01-01'
-          date_end: '2008-12-31'
-          description: |
-            Entered with a ranking of 353 (top 1%) in the national university entrance exam (Concours).
+        ### MSc, Industrial and Systems Engineering
+        **Istanbul Sehir University** | Istanbul, Turkey  
+        *January 2014 – December 2016*
+        
+        Full scholarship, CGPA: 3.93 / 4
+        
+        ---
+        
+        ### BSc, Industrial Engineering
+        **Istanbul Sehir University** | Istanbul, Turkey  
+        *January 2012 – December 2014*
+        
+        Graduated with honors, CGPA: 3.51 / 4
+        
+        ---
+        
+        ### BSc, Industrial Engineering (Discontinued)
+        **Sharif University of Technology** | Tehran, Iran  
+        *2004 – 2008*
+        
+        Entered with a ranking of 353 (top 1%) in the national university entrance exam (Concours).
     design:
       columns: '1'
 ---
