@@ -59,7 +59,12 @@ education:
     date_start: 2016-08-01
     date_end: 2021-01-31
     summary: |
+      Thesis: Design and Optimization of Road Networks for Automated Vehicles
+      
       Fully funded by an NWO grant.
+    button:
+      text: 'Read Thesis'
+      url: 'https://doi.org/10.4233/uuid:c21d4943-b848-4e77-b5b8-a5423f751dbd'
   - area: MSc, Industrial and Systems Engineering
     institution: Istanbul Sehir University
     date_start: 2014-01-01
