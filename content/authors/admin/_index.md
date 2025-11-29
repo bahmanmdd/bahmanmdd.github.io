@@ -27,7 +27,7 @@ role: Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ENTPE (University of Lyon & University Gustav Eiffel)
+  - name: Université Gustave Eiffel & ENTPE
     url: ''
 
 # Social network links
@@ -81,12 +81,12 @@ education:
 
 work:
   - position: Assistant Professor
-    company_name: ENTPE (University of Lyon & University Gustav Eiffel)
+    company_name: Université Gustave Eiffel & ENTPE
     company_url: ''
     date_start: 2023-12-01
     date_end: ''
     summary: |
-      **Department**: LICIT-ECO7: Transport and Traffic Engineering Laboratory
+      **Department**: Transport and Traffic Engineering Laboratory (LICIT-ECO7)
       
       **Research Focus**:
       * Enabling seamless zero-emission multimodal mobility by optimal design of multimodal mobility networks
@@ -222,4 +222,4 @@ skills:
 awards: []
 ---
 
-Assistant Professor at ENTPE (University of Lyon & University Gustav Eiffel) within the LICIT-ECO7 laboratory. My research focuses on learning-based optimization in transport and energy, specifically enabling seamless zero-emission multimodal mobility. I specialize in Graph Neural Networks, Deep Learning, and Operations Research to solve complex problems in transport network design, traffic simulation, and geospatial data analysis.
+Assistant Professor at Université Gustave Eiffel & ENTPE within the Transport and Traffic Engineering Laboratory (LICIT-ECO7). My research focuses on learning-based optimization in transport and energy, specifically enabling seamless zero-emission multimodal mobility. I specialize in Graph Neural Networks, Deep Learning, and Operations Research to solve complex problems in transport network design, traffic simulation, and geospatial data analysis.
