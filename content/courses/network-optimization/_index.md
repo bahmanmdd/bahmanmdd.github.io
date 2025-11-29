@@ -3,7 +3,7 @@ title: Design and Optimization of Transport Networks (DOTNET)
 linkTitle: DOTNET
 summary: Graduate course on multimodal transport network modeling, equilibrium analysis, and optimization for strategic planning
 date: '2024-01-01'
-type: docs
+type: landing
 tags:
   - Course
 ---

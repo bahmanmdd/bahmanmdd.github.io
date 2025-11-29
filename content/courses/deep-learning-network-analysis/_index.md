@@ -3,7 +3,7 @@ title: Deep Learning for Dynamic Network Analysis (DLDNA)
 linkTitle: DLDNA
 summary: Graduate course on applying deep learning and graph neural networks to network analysis problems
 date: '2024-01-01'
-type: docs
+type: landing
 tags:
   - Course
 ---
