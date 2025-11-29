@@ -23,59 +23,25 @@ sections:
     content:
       title: Professional Development
       text: |
-        ### Discipline Knowledge
+        #### Advanced Transportation & AI
         
-        **Advanced Transportation & Network Modeling**
-        - Discrete choice analysis: microeconomics and machine learning approaches
-        - Traffic flow modeling and control (Crete 12th short course)
-        - TRAIL fundamental domain knowledge
-        - TRAIL international summer school on automated driving
+        - **TRAIL International Summer School** — Automated Driving
+        - **Traffic Flow Modeling & Control** — Crete Short Course
+        - **Discrete Choice Analysis** — Microeconomics & ML Approaches
+        - **SURF Academy** — Research Methods in Transportation
         
-        **Research Methodologies**
-        - SURF academy: Research methods in transportation
-        - Writing literature review papers in transportation domain
-    design:
-      columns: '2'
-  
-  - block: markdown
-    content:
-      title: ''
-      text: |
-        ### Research & Transferable Skills
+        #### AI & Machine Learning (Deeplearning.ai)
         
-        **Academic Development**
-        - Creative research in academia
-        - Critical thinking and scientific reflection
-        - Problem solving and decision making
-        - Research design and methodology
-        
-        **Communication & Leadership**
-        - Analytical storytelling
-        - Scientific writing in English
-        - Managing peer-review process
-        - Personal branding and career development
-        
-        **Teaching & Mentoring**
-        - Supervising master students
-        - Mentoring and tutoring students
-        - Communication and coping strategies
-    design:
-      columns: '2'
-  
-  - block: markdown
-    content:
-      title: Recent Certifications & Training
-      text: |
-        **AI & Machine Learning** (Deeplearning.ai, IBM, Coursera)
-        - Knowledge Graphs for RAG
-        - Developing AI Applications with Python
+        - Building Agentic RAG with LlamaIndex
         - LLMOps & Finetuning Large Language Models
-        - Building Agentic RAG with Llamaindex
+        - Knowledge Graphs for RAG
         
-        **Academic Skills** (University of Colorado, TU Delft)
-        - Scientific Writing for Research Grant Proposals
-        - Grant Proposal Plans, Sections, and Resubmission
-        - Development of Teaching and Active Learning
+        #### Research & Academic Skills
+        
+        - **Grant Writing** — Scientific Writing for Research Proposals (U. Colorado)
+        - **Peer Review** — Managing Academic Publication Process
+        - **Teaching** — Development of Active Learning (TU Delft)
+        - **Mentoring** — Supervising Graduate Students
     design:
       columns: '1'
   
@@ -83,16 +49,10 @@ sections:
     content:
       title: Open Source Contributions
       text: |
-        ### Code Repositories
-        
-        - [HDLMF_GIN-GA](https://github.com/bahmanmdd/HDLMF_GIN-GA)
-        - [DAP](https://github.com/bahmanmdd/DAP)
-        - [rr-measure-basic](https://github.com/RRinTransportation/rr-measure-basic)
-        - [TOD_simulation](https://github.com/bahmanmdd/TOD_simulation)
-        
-        ### Research Data
-        
-        - [Dataset Repository](https://doi.org/10.6084/m9.figshare.27889251.v3)
+        - [HDLMF_GIN-GA](https://github.com/bahmanmdd/HDLMF_GIN-GA) — Hybrid deep learning framework
+        - [rr-measure-basic](https://github.com/RRinTransportation/rr-measure-basic) — Road readiness tools
+        - [TOD_simulation](https://github.com/bahmanmdd/TOD_simulation) — Teleoperated driving simulation
+        - [Research Dataset](https://doi.org/10.6084/m9.figshare.27889251.v3) — Figshare repository
     design:
       columns: '1'
 ---
