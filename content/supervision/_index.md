@@ -3,6 +3,9 @@ title: PhD Supervision
 summary: Current PhD students under supervision
 type: landing
 
+design:
+  spacing: '6rem'
+
 sections:
   - block: markdown
     content:

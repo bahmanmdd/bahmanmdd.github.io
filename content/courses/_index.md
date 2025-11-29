@@ -3,6 +3,9 @@ title: Courses
 summary: My courses
 type: landing
 
+design:
+  spacing: '6rem'
+
 sections:
   - block: collection
     id: courses
