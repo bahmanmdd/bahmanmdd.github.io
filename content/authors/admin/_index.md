@@ -212,15 +212,12 @@ skills:
         description: 'Mathematical optimization'
         percent: 100
         icon: chart-bar
-      - name: GAMS, OR Tools
-        description: 'Optimization modeling'
-        percent: 90
-        icon: chart-bar
+
       - name: Arena, AnyLogic, Vensim
         description: 'Simulation software'
         percent: 85
         icon: cpu-chip
-      - name: OmniTrans
+      - name: OmniTrans, PTV Vissum
         description: 'Transport & spatial modeling'
         percent: 80
         icon: map
