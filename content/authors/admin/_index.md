@@ -231,34 +231,22 @@ skills:
         description: 'Cloud services'
         percent: 80
         icon: cloud
-  - name: Languages
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Persian (Farsi)
-        description: 'Mother tongue'
-        percent: 100
-        icon: language
-      - name: English
-        description: 'C2 Proficiency (all skills)'
-        percent: 100
-        icon: language
-      - name: Azeri
-        description: 'C2 (L, I, P), C1 (R, W)'
-        percent: 100
-        icon: language
-      - name: Turkish
-        description: 'B2+ (L, I, P), B2 (R, W)'
-        percent: 80
-        icon: language
-      - name: Dutch
-        description: 'B1+ (all skills)'
-        percent: 70
-        icon: language
-      - name: French
-        description: 'B1 (all skills)'
-        percent: 60
-        icon: language
+
+
+
+languages:
+  - name: Persian (Farsi)
+    percent: 100
+  - name: English
+    percent: 100
+  - name: Azeri
+    percent: 100
+  - name: Turkish
+    percent: 80
+  - name: Dutch
+    percent: 70
+  - name: French
+    percent: 60
 
 awards: []
 ---
