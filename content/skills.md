@@ -123,14 +123,14 @@ sections:
       text: |
         ### Code Repositories
         
-        - **[HDLMF_GIN-GA](https://github.com/bahmanmdd/HDLMF_GIN-GA)** — Hybrid Deep Learning Metaheuristic Framework for network design
-        - **[DAP](https://github.com/bahmanmdd/DAP)** — Data Analysis Pipeline for transport research
-        - **[rr-measure-basic](https://github.com/RRinTransportation/rr-measure-basic)** — Road Readiness Measurement Tools
-        - **[TOD_simulation](https://github.com/bahmanmdd/TOD_simulation)** — Teleoperated Driving Simulation framework
+        - [HDLMF_GIN-GA](https://github.com/bahmanmdd/HDLMF_GIN-GA)
+        - [DAP](https://github.com/bahmanmdd/DAP)
+        - [rr-measure-basic](https://github.com/RRinTransportation/rr-measure-basic)
+        - [TOD_simulation](https://github.com/bahmanmdd/TOD_simulation)
         
         ### Research Data
         
-        - **[Dataset Repository](https://doi.org/10.6084/m9.figshare.27889251.v3)** — Published research datasets on Figshare
+        - [Dataset Repository](https://doi.org/10.6084/m9.figshare.27889251.v3)
     design:
       columns: '1'
 ---
