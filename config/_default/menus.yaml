@@ -19,3 +19,6 @@ main:
   - name: Supervision
     url: /supervision/
     weight: 50
+  - name: Experience
+    url: /experience/
+    weight: 60
