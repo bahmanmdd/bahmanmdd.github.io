@@ -16,3 +16,6 @@ main:
   - name: Courses
     url: /courses/
     weight: 40
+  - name: Supervision
+    url: /supervision/
+    weight: 50
