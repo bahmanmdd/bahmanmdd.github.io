@@ -2,6 +2,9 @@
 title: Experience
 type: landing
 
+design:
+  spacing: '6rem'
+
 sections:
   - block: experience
     content:
@@ -120,4 +123,6 @@ sections:
           date_end: '2008-12-31'
           description: |
             Entered with a ranking of 353 (top 1%) in the national university entrance exam (Concours).
+    design:
+      columns: '1'
 ---
