@@ -5,9 +5,7 @@ authors:
   - Gonçalo Homem de Almeida Correia
 date: '2024-01-01T00:00:00Z'
 publication_types: ['article-journal']
-publication: '*Expert Systems with Applications*, 243'
-publication_short: ''
-abstract: ''
+publication: '*Expert Systems with Applications*, 243, 122814'
 featured: true
 hugoblox:
   ids:

@@ -1,5 +1,5 @@
 ---
-title: 'Multi-Stage Optimal Design of Road Networks for Automated Vehicles with Elastic Multi-Class Demand'
+title: 'Multi-stage optimal design of road networks for automated vehicles with elastic multi-class demand'
 authors:
   - admin
   - R van Nes
@@ -7,9 +7,7 @@ authors:
   - B van Arem
 date: '2021-01-01T00:00:00Z'
 publication_types: ['article-journal']
-publication: '*Computers & Operations Research*, 136'
-publication_short: ''
-abstract: ''
+publication: '*Computers and Operations Research*, 136'
 featured: true
 hugoblox:
   ids:
