@@ -80,4 +80,44 @@ sections:
             Documenting and revising Standard Operating Procedures for brainstorming sessions.
     design:
       columns: '1'
+  
+  - block: experience
+    content:
+      title: Education
+      items:
+        - title: PhD, Design and optimization of road networks for automated vehicles
+          company: Delft University of Technology
+          company_url: ''
+          location: Delft, Netherlands
+          date_start: '2016-08-01'
+          date_end: '2021-01-31'
+          description: |
+            Fully funded by an NWO grant.
+        
+        - title: MSc, Industrial and Systems Engineering
+          company: Istanbul Sehir University
+          company_url: ''
+          location: Istanbul, Turkey
+          date_start: '2014-01-01'
+          date_end: '2016-12-31'
+          description: |
+            Full scholarship, CGPA: 3.93 / 4
+        
+        - title: BSc, Industrial Engineering
+          company: Istanbul Sehir University
+          company_url: ''
+          location: Istanbul, Turkey
+          date_start: '2012-01-01'
+          date_end: '2014-12-31'
+          description: |
+            Graduated with honors, CGPA: 3.51 / 4
+        
+        - title: BSc, Industrial Engineering (Discontinued)
+          company: Sharif University of Technology
+          company_url: ''
+          location: Tehran, Iran
+          date_start: '2004-01-01'
+          date_end: '2008-12-31'
+          description: |
+            Entered with a ranking of 353 (top 1%) in the national university entrance exam (Concours).
 ---
