@@ -13,11 +13,11 @@ main:
   - name: Talks
     url: /#talks
     weight: 30
-  - name: Courses
-    url: /courses/
-    weight: 40
   - name: Supervision
     url: /supervision/
+    weight: 40
+  - name: Courses
+    url: /courses/
     weight: 50
   - name: Experience
     url: /experience/
