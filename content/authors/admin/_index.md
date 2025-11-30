@@ -27,8 +27,10 @@ role: Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Université Gustave Eiffel & ENTPE
+  - name: Université Gustave Eiffel
     url: 'https://www.univ-gustave-eiffel.fr/en/'
+  - name: ENTPE
+    url: 'https://www.entpe.fr/en'
 
 # Social network links
 profiles:
