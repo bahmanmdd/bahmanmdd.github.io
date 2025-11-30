@@ -5,10 +5,8 @@
 
 # Appearance
 appearance:
-  mode: dark
-  color: custom
-  theme_day: custom_light
-  theme_night: custom_dark
+  mode: system
+  color: indigo
 
 # SEO
 marketing:
