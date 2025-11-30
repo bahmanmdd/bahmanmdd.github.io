@@ -15,24 +15,24 @@ sections:
         
         ## Current PhD Students
         
-        ### Tristan Lemoalle
+        ### [Tristan Lemoalle](https://www.linkedin.com/in/tristan-lemoalle/)
         **Topic**: Designing bike-inclusive road networks using a combination of data-driven and model-based optimization
         
-        **Director**: Prof. Angelo Furno, HDR
+        **Director**: [Prof. Angelo Furno, HDR](https://www.linkedin.com/in/angelofurno/)
         
         ---
         
-        ### Zohre M. Mosammam
+        ### [Zohre M. Mosammam](https://www.linkedin.com/in/zohre-m-mosammam-2a6bb5aa/)
         **Topic**: Joint optimization of V2G networks and EV charging stations using deep-learning-based surrogate modelling
         
-        **Director**: Prof. Rochdi Trigui, HDR
+        **Director**: [Prof. Rochdi Trigui, HDR](https://www.linkedin.com/in/rochdi-trigui-361b6b168/)
         
         ---
         
-        ### Sina Sabzekar
+        ### [Sina Sabzekar](https://www.linkedin.com/in/sina-sabzekar/)
         **Topic**: Enhancing urban transport resilience with multimodal mobility hubs using deep-learning-based surrogate modelling
         
-        **Director**: Prof. Angelo Furno, HDR
+        **Director**: [Prof. Angelo Furno, HDR](https://www.linkedin.com/in/angelofurno/)
     design:
       columns: '1'
 ---

@@ -14,7 +14,7 @@ pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: ''
 
 # Is this the primary user of the site?
 superuser: true
@@ -28,13 +28,13 @@ role: Assistant Professor
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Université Gustave Eiffel & ENTPE
-    url: ''
+    url: 'https://www.univ-gustave-eiffel.fr/en/'
 
 # Social network links
 profiles:
-  - icon: at-symbol
-    url: 'mailto:bahmanmadadi@outlook.com'
-    label: E-mail Me
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-7130-8825
+    label: ORCID
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/bahman-madadi-270a48181/
   - icon: brands/github
@@ -82,11 +82,11 @@ education:
 work:
   - position: Assistant Professor
     company_name: Université Gustave Eiffel & ENTPE
-    company_url: ''
+    company_url: 'https://www.univ-gustave-eiffel.fr/en/'
     date_start: 2023-12-01
     date_end: ''
     summary: |
-      **Department**: Transport and Traffic Engineering Laboratory (LICIT-ECO7)
+      **Department**: Transport and Traffic Engineering Laboratory ([LICIT-ECO7](https://licit-lyon.eu/))
       
       **Research Focus**:
       * Enabling seamless zero-emission multimodal mobility by optimal design of multimodal mobility networks
@@ -102,11 +102,11 @@ work:
       * Optimal placement of EV charging stations
   - position: Postdoctoral Researcher
     company_name: Delft University of Technology
-    company_url: ''
+    company_url: 'https://www.tudelft.nl/en/'
     date_start: 2022-01-01
     date_end: 2023-12-31
     summary: |
-      **Department**: Faculty of Civil Engineering and Geosciences, Department of Transport & Planning, Lab of Electric and Automated Transport (hEAT Lab)
+      **Department**: Faculty of Civil Engineering and Geosciences, Department of Transport & Planning, [Lab of Electric and Automated Transport (hEAT Lab)](https://www.tudelft.nl/citg/over-faculteit/afdelingen/transport-planning/labs/heat-lab)
       
       **Research Focus**:
       * Performing academic research
@@ -125,11 +125,11 @@ work:
       * Work Package lead: CATALYST project, Connected and Automated Transport and Logistics Living Lab
   - position: Researcher | PhD Candidate
     company_name: Delft University of Technology
-    company_url: ''
+    company_url: 'https://www.tudelft.nl/en/'
     date_start: 2016-08-01
     date_end: 2021-01-31
     summary: |
-      **Department**: Faculty of Civil Engineering and Geosciences, Department of Transport & Planning, Lab of electric and automated transport (hEAT Lab)
+      **Department**: Faculty of Civil Engineering and Geosciences, Department of Transport & Planning, [Lab of electric and automated transport (hEAT Lab)](https://www.tudelft.nl/citg/over-faculteit/afdelingen/transport-planning/labs/heat-lab)
       
       **Research Focus**:
       * PhD candidate: STAD project, Design and optimization of road networks for automated vehicles
@@ -156,18 +156,12 @@ work:
     date_end: 2012-12-31
     summary: |
       Specifying customer needs for transportation & logistics service providers. Quality Deployment of specifically tailored ERP platforms.
-  - position: Junior Analyst
-    company_name: National Petrochemical Company
-    company_url: ''
-    date_start: 2009-01-01
-    date_end: 2010-12-31
-    summary: |
-      Research and Development Department. Coordinating brainstorming sessions for strategic decision-making processes.
+
   - position: Junior Analyst
     company_name: Institute of Technological Research and Development
     company_url: ''
     date_start: 2008-01-01
-    date_end: 2009-12-31
+    date_end: 2010-12-31
     summary: |
       Documenting and revising Standard Operating Procedures for brainstorming sessions.
 
