@@ -25,10 +25,10 @@ sections:
       text: |
         #### Advanced Transportation & AI
         
-        - **TRAIL International Summer School** — Automated Driving (TU Delft)
+        - **TRAIL International Summer School** — Automated Driving (TRAIL Research School)
         - **Traffic Flow Modeling & Control** — Crete Short Course
         - **Discrete Choice Analysis** — Microeconomics & ML Approaches (TU Delft)
-        - **SURF Academy** — Research Methods in Transportation (TU Delft)
+        - **SURF Academy** — Research Methods in Transportation (TRAIL Research School)
         
         #### AI & Machine Learning
         
