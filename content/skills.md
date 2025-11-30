@@ -25,34 +25,35 @@ sections:
       text: |
         #### Advanced Transportation & AI
         
-        - **TRAIL International Summer School** — Automated Driving
+        - **TRAIL International Summer School** — Automated Driving (TU Delft)
         - **Traffic Flow Modeling & Control** — Crete Short Course
-        - **Discrete Choice Analysis** — Microeconomics & ML Approaches
-        - **SURF Academy** — Research Methods in Transportation
+        - **Discrete Choice Analysis** — Microeconomics & ML Approaches (TU Delft)
+        - **SURF Academy** — Research Methods in Transportation (TU Delft)
         
-        #### AI & Machine Learning (Deeplearning.ai)
+        #### AI & Machine Learning
         
-        - Building Agentic RAG with LlamaIndex
-        - LLMOps & Finetuning Large Language Models
-        - Knowledge Graphs for RAG
+        - Building Agentic RAG with LlamaIndex (Deeplearning.ai)
+        - LLMOps & Finetuning Large Language Models (Deeplearning.ai)
+        - Knowledge Graphs for RAG (Deeplearning.ai)
         
         #### Research & Academic Skills
         
-        - **Grant Writing** — Scientific Writing for Research Proposals (U. Colorado)
-        - **Peer Review** — Managing Academic Publication Process
-        - **Teaching** — Development of Active Learning (TU Delft)
-        - **Mentoring** — Supervising Graduate Students
+        - **Grant Writing** — Scientific Writing for Research Proposals (University of Colorado, Coursera)
+        - **Peer Review** — Managing Academic Publication Process (TU Delft)
+        - **Teaching** — Development of Active Learning (TU Delft OpenCourseWare)
+        - **Mentoring** — Supervising Graduate Students (TU Delft)
     design:
       columns: '1'
   
   - block: markdown
     content:
-      title: Open Source Contributions
+      title: Notable Open Source Contributions
       text: |
-        - [HDLMF_GIN-GA](https://github.com/bahmanmdd/HDLMF_GIN-GA) — Hybrid deep learning framework
-        - [rr-measure-basic](https://github.com/RRinTransportation/rr-measure-basic) — Road readiness tools
-        - [TOD_simulation](https://github.com/bahmanmdd/TOD_simulation) — Teleoperated driving simulation
-        - [Research Dataset](https://doi.org/10.6084/m9.figshare.27889251.v3) — Figshare repository
+        - [HDLMF_GIN-GA](https://github.com/bahmanmdd/HDLMF_GIN-GA) — Hybrid deep learning optimization framework for network design using deep learning based surrogate modeling
+        - [rr-measure-basic](https://github.com/RRinTransportation/rr-measure-basic) — Using LLMs for automated pipeline to assess reproducibility of transportation research papers
+        - [TOD_simulation](https://github.com/bahmanmdd/TOD_simulation) — Teleoperated driving simulation framework
+        - [DAP](https://github.com/bahmanmdd/DAP) — Java simulation tool for anchorage planning
+        - [Research Dataset](https://doi.org/10.6084/m9.figshare.27889251.v3) — Transport network datasets for training graph neural network models
     design:
       columns: '1'
 ---
