@@ -1,0 +1,59 @@
+/* Custom CSS overrides for bahmanmdd.github.io */
+
+/* Fix hyperlinks in Supervision tab - Remove underline, make cyan/bold */
+/* Ultra-specific selectors to override Tailwind prose styles */
+.prose.prose-slate a,
+.prose.prose-slate.lg\:prose-xl a,
+.prose.prose-slate.dark\:prose-invert a,
+.prose.prose-slate.lg\:prose-xl.dark\:prose-invert a,
+.prose h3 a,
+.prose-slate h3 a,
+.blox-markdown .prose a,
+.blox-markdown .prose-slate a,
+section.blox-markdown .prose a,
+section.blox-markdown .prose-slate a {
+    text-decoration: none !important;
+    color: #00d4ff !important;
+    /* Cyan color matching theme */
+    font-weight: 700 !important;
+    /* Bold */
+    text-decoration-line: none !important;
+    text-decoration-style: none !important;
+}
+
+/* Maintain hover effect */
+.prose.prose-slate a:hover,
+.prose.prose-slate.lg\:prose-xl a:hover,
+.prose.prose-slate.dark\:prose-invert a:hover,
+.prose.prose-slate.lg\:prose-xl.dark\:prose-invert a:hover,
+.prose h3 a:hover,
+.prose-slate h3 a:hover,
+.blox-markdown .prose a:hover,
+.blox-markdown .prose-slate a:hover,
+section.blox-markdown .prose a:hover,
+section.blox-markdown .prose-slate a:hover {
+    text-decoration: none !important;
+    opacity: 0.8 !important;
+    filter: brightness(1.2) !important;
+    text-decoration-line: none !important;
+}
+
+/* Ensure smooth scrolling through all sections */
+html {
+    scroll-behavior: smooth;
+    overflow-y: auto !important;
+}
+
+body {
+    overflow-y: auto !important;
+    height: auto !important;
+}
+
+/* Fix potential height constraints that prevent scrolling */
+main,
+.container,
+.content {
+    min-height: 100vh;
+    height: auto !important;
+    overflow: visible !important;
+}
