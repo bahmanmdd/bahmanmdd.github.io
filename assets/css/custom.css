@@ -72,10 +72,31 @@ nav.navbar,
     right: 0 !important;
     width: 100% !important;
     z-index: 1000 !important;
-    background-color: rgba(0, 212, 255, 0.8) !important;
-    /* Neon cyan with 80% opacity (20% transparency) */
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    /* Black with 80% opacity (20% transparency) */
     backdrop-filter: blur(10px) !important;
     /* Add blur effect for better readability */
+}
+
+/* Make navbar text and links neon cyan */
+header.hb-header a,
+nav.navbar a,
+.hb-header a,
+header.hb-header .nav-link,
+nav.navbar .nav-link,
+.hb-header .nav-link {
+    color: #00d4ff !important;
+    /* Neon cyan text */
+}
+
+/* Navbar text hover effect */
+header.hb-header a:hover,
+nav.navbar a:hover,
+.hb-header a:hover {
+    color: #00ffff !important;
+    /* Brighter cyan on hover */
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.8) !important;
+    /* Glow effect on hover */
 }
 
 /* Add padding to main content to prevent overlap with fixed navbar */
