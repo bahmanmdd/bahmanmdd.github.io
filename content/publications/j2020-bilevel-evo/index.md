@@ -12,8 +12,9 @@ publication: '*Computer-Aided Civil and Infrastructure Engineering*, 35, 80–96
 featured: true
 image:
   filename: CACIE_2020.png
-  focal_point: Smart
+  focal_point: Center
   preview_only: false
+  caption: ''
 hugoblox:
   ids:
     doi: 10.1111/mice.12498

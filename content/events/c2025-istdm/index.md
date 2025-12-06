@@ -19,8 +19,9 @@ authors:
 
 image:
   filename: ISTDM_2025.png
-  focal_point: Smart
+  focal_point: Center
   preview_only: false
+  caption: ''
 
 links:
   - name: Code
