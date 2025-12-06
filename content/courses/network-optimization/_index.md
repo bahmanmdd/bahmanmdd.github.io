@@ -8,16 +8,6 @@ tags:
   - Course
 
 sections:
-  - block: hero
-    content:
-      title: 'Design and Optimization of Transport Networks (DOTNET)'
-      image:
-        filename: featured.jpg
-      text: |
-        Graduate course on multimodal transport network modeling, equilibrium analysis, and optimization for strategic planning
-    design:
-      spacing:
-        padding: ['20px', '0', '20px', '0']
   - block: markdown
     content:
       title: ''
