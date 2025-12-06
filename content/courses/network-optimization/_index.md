@@ -10,7 +10,7 @@ tags:
 sections:
   - block: markdown
     content:
-      title: ''
+      title: 'Design and Optimization of Transport Networks (DOTNET)'
       text: |
         ## Course Overview
         

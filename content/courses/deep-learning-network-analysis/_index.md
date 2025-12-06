@@ -10,7 +10,7 @@ tags:
 sections:
   - block: markdown
     content:
-      title: ''
+      title: 'Deep Learning for Dynamic Network Analysis (DLDNA)'
       text: |
         ## Course Overview
         
