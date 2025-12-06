@@ -72,6 +72,10 @@ nav.navbar,
     right: 0 !important;
     width: 100% !important;
     z-index: 1000 !important;
+    background-color: rgba(0, 212, 255, 0.8) !important;
+    /* Neon cyan with 80% opacity (20% transparency) */
+    backdrop-filter: blur(10px) !important;
+    /* Add blur effect for better readability */
 }
 
 /* Add padding to main content to prevent overlap with fixed navbar */
