@@ -18,3 +18,5 @@ links:
   - name: Dataset created
     url: https://doi.org/10.6084/m9.figshare.27889251.v3
 ---
+
+This paper presents a novel hybrid framework combining deep learning with metaheuristic optimization to solve bi-level network design problems. Traditional optimization approaches struggle with the computational complexity of these problems, especially when lower-level traffic assignment must be solved for each network configuration. The proposed framework uses graph neural networks as surrogate models to approximate traffic assignment outcomes, dramatically reducing computation time while maintaining solution quality. The method is validated on transportation network design problems, demonstrating significant speedups compared to conventional approaches. Open-source code and datasets are provided to support reproducibility and further research.

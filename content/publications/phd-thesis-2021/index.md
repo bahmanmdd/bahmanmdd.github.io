@@ -5,7 +5,7 @@ authors:
 date: '2021-01-31T00:00:00Z'
 publication_types: ['thesis']
 publication: 'Delft University of Technology'
-abstract: 'PhD Dissertation on design and optimization of road networks for automated vehicles.'
+summary: 'This PhD dissertation addresses the design and optimization of road networks to accommodate automated vehicles (AVs). The research develops methodologies for network-level infrastructure planning, examining how road networks should be configured to maximize the benefits of automated driving. Key contributions include bi-level optimization frameworks, multi-stage design approaches, and dedicated infrastructure strategies that consider the transition period from manual to automated vehicles. The work provides practical insights for transportation planners on cost-effective network modifications to facilitate AV deployment.'
 featured: true
 hugoblox:
   ids:

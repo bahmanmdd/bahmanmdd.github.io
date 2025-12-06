@@ -16,3 +16,5 @@ links:
   - type: pdf
     url: https://doi.org/10.1016/j.cstp.2018.11.006
 ---
+
+This exploratory study investigates the concept of subnetworks for automated driving - designated areas within urban road networks where automated vehicles can operate. Using a case study approach, the research assesses how different subnetwork configurations affect travel times, vehicle kilometers traveled, and overall network performance. The study considers both the benefits for AV users (who can use automation within subnetworks) and impacts on conventional vehicle users. Findings reveal that carefully designed subnetworks can provide significant travel time savings for AV users while having minimal negative impacts on other traffic. This early work established foundational understanding of phased AV deployment strategies that informed subsequent research on network design for automated vehicles.

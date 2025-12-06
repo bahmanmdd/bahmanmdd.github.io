@@ -16,3 +16,5 @@ links:
   - type: pdf
     url: https://doi.org/10.1155/2021/8853583
 ---
+
+This research explores different infrastructure strategies for integrating automated vehicles into existing road networks, comparing three approaches: dedicated links (entire roads for AVs only), dedicated lanes (AV-only lanes on mixed roads), and mixed-traffic subnetworks (areas where AVs and manual vehicles share all infrastructure). The study develops optimization models to determine the most cost-effective combination of these strategies for different network contexts and budget scenarios. Results provide insights into when each strategy is most beneficial, considering factors such as network topology, traffic demand patterns, and available budgets. The findings help transportation agencies design phased implementation plans that maximize the benefits of AV technology while minimizing infrastructure costs.

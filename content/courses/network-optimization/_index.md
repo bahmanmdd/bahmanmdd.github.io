@@ -54,7 +54,6 @@ sections:
         
         - **Programming**: Python with focus on transport modeling libraries
         - **Computation**: Personal computers or Google Colab
-        - **AI Tools**: Permitted with full transparency and understanding requirements
         - **Software**: Network analysis and optimization packages
         
         All course materials, including lecture slides, Python notebooks, and datasets, are provided via Moodle.
