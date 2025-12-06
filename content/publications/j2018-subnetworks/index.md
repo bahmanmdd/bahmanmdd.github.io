@@ -8,7 +8,7 @@ authors:
 date: '2018-01-01T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Case Studies on Transport Policy*, 7, 48–56'
-featured: false
+featured: true
 hugoblox:
   ids:
     doi: 10.1016/j.cstp.2018.11.006
