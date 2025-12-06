@@ -20,12 +20,9 @@ sections:
       text: |
         <style>
         .language-proficiency {
-          width: 90vw;
+          width: 45vw;
           max-width: none;
-          margin-left: calc(50% - 45vw);
-          margin-right: calc(50% - 45vw);
-          margin-top: 2rem;
-          margin-bottom: 2rem;
+          margin: 2rem auto;
         }
         
         .level-markers {
