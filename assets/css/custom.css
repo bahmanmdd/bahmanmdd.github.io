@@ -72,10 +72,10 @@ nav.navbar,
     right: 0 !important;
     width: 100% !important;
     z-index: 1000 !important;
-    background-color: #000 !important;
-    /* Solid black background */
-    backdrop-filter: none !important;
-    /* Remove blur effect */
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    /* Black with 80% opacity (20% transparency) */
+    backdrop-filter: blur(10px) !important;
+    /* Add blur effect for better readability */
 }
 
 /* Make navbar text and links neon cyan */
@@ -125,26 +125,5 @@ header.hb-header+* {
 
 /* Remove any border/gradient from elements immediately after header */
 body>div:first-of-type:not(.page-body) {
-    display: none !important;
-}
-
-/* Hide pseudo-elements that might create bars */
-body::before,
-body::after,
-main::before,
-main::after {
-    display: none !important;
-}
-
-/* Remove background gradients from main content area near top */
-main,
-.page-body {
-    background: none !important;
-}
-
-/* Target specific gradient elements */
-[class*="gradient"],
-[class*="hero-"],
-[id*="gradient"] {
     display: none !important;
 }
