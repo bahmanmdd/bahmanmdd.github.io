@@ -8,18 +8,19 @@ tags:
   - Course
 
 sections:
+  - block: hero
+    content:
+      title: 'Deep Learning for Dynamic Network Analysis (DLDNA)'
+      image:
+        filename: featured.png
+      text: |
+        Graduate course on applying deep learning and graph neural networks to network analysis problems
+    design:
+      spacing:
+        padding: ['20px', '0', '20px', '0']
   - block: markdown
     content:
       title: ''
-      text: |
-        # Deep Learning for Dynamic Network Analysis (DLDNA)
-        
-        ![DLDNA Course](featured.png)
-        
-        Graduate course on applying deep learning and graph neural networks to network analysis problems
-        
-        ---
-        
       text: |
         ## Course Overview
         
