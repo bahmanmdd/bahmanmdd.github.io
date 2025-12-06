@@ -12,4 +12,10 @@ authors:
   - M Snelder
   - J A Annema
   - B V Arem
+
+image:
+  filename: featured.png
+  focal_point: Center
+  preview_only: false
+  caption: ''
 ---

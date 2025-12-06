@@ -10,6 +10,11 @@ lastmod: '2025-12-06T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Case Studies on Transport Policy*, 7, 48–56'
 featured: true
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 hugoblox:
   ids:
     doi: 10.1016/j.cstp.2018.11.006

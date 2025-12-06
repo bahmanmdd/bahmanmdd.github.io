@@ -10,6 +10,11 @@ lastmod: '2025-12-06T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Computers and Operations Research*, 136'
 featured: true
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 hugoblox:
   ids:
     doi: 10.1016/j.cor.2021.105483

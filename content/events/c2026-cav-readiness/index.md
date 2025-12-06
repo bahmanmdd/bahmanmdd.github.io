@@ -16,4 +16,10 @@ authors:
   - A P Silvano
   - J Andersson
   - A Adesiyun
+
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 ---

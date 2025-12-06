@@ -9,4 +9,10 @@ authors:
   - L Deckers
   - admin
   - T Verduijn
+
+image:
+  filename: featured.png
+  focal_point: Center
+  preview_only: false
+  caption: ''
 ---

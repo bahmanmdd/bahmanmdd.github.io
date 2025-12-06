@@ -10,6 +10,11 @@ lastmod: '2025-12-06T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Journal of Advanced Transportation*, 2021, 1–17'
 featured: true
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 hugoblox:
   ids:
     doi: 10.1155/2021/8853583

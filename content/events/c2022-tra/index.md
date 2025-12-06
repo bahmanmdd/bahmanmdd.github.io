@@ -10,4 +10,10 @@ authors:
   - G H A Correa
   - H Farah
 featured: true
+
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 ---

@@ -9,4 +9,10 @@ authors:
   - admin
   - Gonçalo Homem de Almeida Correia
 featured: true
+
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 ---

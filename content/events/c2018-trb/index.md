@@ -10,4 +10,10 @@ authors:
   - R van Nes
   - M Snelder
   - B van Arem
+
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 ---

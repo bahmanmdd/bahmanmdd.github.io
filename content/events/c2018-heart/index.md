@@ -7,4 +7,10 @@ date: '2018-09-01T00:00:00Z'
 all_day: true
 authors:
   - admin
+
+image:
+  filename: featured.jpg
+  focal_point: Center
+  preview_only: false
+  caption: ''
 ---
