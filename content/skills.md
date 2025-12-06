@@ -25,6 +25,22 @@ sections:
           margin: 2rem auto;
         }
         
+        /* Mobile responsive - wider bars on small screens */
+        @media (max-width: 768px) {
+          .language-proficiency {
+            width: 90vw;
+          }
+          
+          .level-markers {
+            padding-left: 100px !important;
+          }
+          
+          .language-label {
+            min-width: 90px !important;
+            font-size: 0.95rem !important;
+          }
+        }
+        
         .level-markers {
           display: flex;
           margin-bottom: 0.5rem;
