@@ -21,14 +21,13 @@ sections:
         <style>
         .language-proficiency {
           width: 100%;
-          max-width: 1200px;
           margin: 2rem auto;
         }
         
         .level-markers {
           display: flex;
           margin-bottom: 0.5rem;
-          padding-left: 220px;
+          padding-left: 180px;
           position: relative;
           gap: 8px;
         }
@@ -46,7 +45,7 @@ sections:
           content: '';
           position: absolute;
           left: 0;
-          top: 26px;
+          top: 24px;
           width: 1px;
           height: 10px;
           background: rgba(255, 255, 255, 0.3);
@@ -56,7 +55,7 @@ sections:
           content: '';
           position: absolute;
           right: 0;
-          top: 26px;
+          top: 24px;
           width: 1px;
           height: 10px;
           background: rgba(255, 255, 255, 0.3);
@@ -70,7 +69,7 @@ sections:
         }
         
         .language-label {
-          min-width: 200px;
+          min-width: 160px;
           font-weight: 600;
           color: #00d4ff;
           font-size: 1.05rem;
@@ -85,7 +84,7 @@ sections:
         
         .progress-container {
           flex: 1;
-          height: 50px;
+          height: 28px;
           background: rgba(0, 0, 0, 0.6);
           border: 1px solid #333;
           border-radius: 6px;
