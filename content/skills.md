@@ -30,12 +30,13 @@ sections:
           margin-bottom: 0.5rem;
           padding-left: 220px;
           position: relative;
+          gap: 8px;
         }
         
         .level-marker {
           flex: 1;
           text-align: center;
-          font-size: 0.85rem;
+          font-size: 0.9rem;
           font-weight: 600;
           color: #00d4ff;
           position: relative;
@@ -45,9 +46,9 @@ sections:
           content: '';
           position: absolute;
           left: 0;
-          top: 24px;
+          top: 26px;
           width: 1px;
-          height: 8px;
+          height: 10px;
           background: rgba(255, 255, 255, 0.3);
         }
         
@@ -55,17 +56,17 @@ sections:
           content: '';
           position: absolute;
           right: 0;
-          top: 24px;
+          top: 26px;
           width: 1px;
-          height: 8px;
+          height: 10px;
           background: rgba(255, 255, 255, 0.3);
         }
         
         .language-row {
           display: flex;
           align-items: center;
-          margin-bottom: 1.5rem;
-          gap: 20px;
+          margin-bottom: 0.8rem;
+          gap: 10px;
         }
         
         .language-label {
@@ -84,7 +85,7 @@ sections:
         
         .progress-container {
           flex: 1;
-          height: 32px;
+          height: 50px;
           background: rgba(0, 0, 0, 0.6);
           border: 1px solid #333;
           border-radius: 6px;
@@ -118,6 +119,7 @@ sections:
           bottom: 0;
           display: flex;
           pointer-events: none;
+          gap: 8px;
         }
         
         .level-divider {
