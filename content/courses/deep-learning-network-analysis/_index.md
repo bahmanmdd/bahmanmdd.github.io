@@ -49,7 +49,6 @@ sections:
         ## Tools & Technologies
         
         - **Primary Framework**: PyTorch and PyTorch Geometric
-        - **Development Environment**: Google Colab (free GPUs) or personal computers
         - **Programming**: Python with focus on practical implementation
         
         All course materials, including lecture slides and Jupyter notebooks, are provided via Moodle.
