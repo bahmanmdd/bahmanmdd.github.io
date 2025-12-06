@@ -17,6 +17,11 @@ authors:
   - G MacFarlane
   - C Wu
 
+image:
+  filename: ISTDM_2025.png
+  focal_point: Smart
+  preview_only: false
+
 links:
   - name: Code
     url: https://github.com/RRinTransportation/rr-measure-basic
