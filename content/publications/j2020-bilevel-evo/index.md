@@ -6,6 +6,7 @@ authors:
   - M Snelder
   - B van Arem
 date: '2020-01-01T00:00:00Z'
+lastmod: '2025-12-06T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Computer-Aided Civil and Infrastructure Engineering*, 35, 80–96'
 featured: true

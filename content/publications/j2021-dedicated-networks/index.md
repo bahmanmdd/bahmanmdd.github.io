@@ -6,6 +6,7 @@ authors:
   - M Snelder
   - B van Arem
 date: '2021-01-01T00:00:00Z'
+lastmod: '2025-12-06T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Journal of Advanced Transportation*, 2021, 1–17'
 featured: true

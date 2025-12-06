@@ -6,6 +6,7 @@ authors:
   - M Snelder
   - B van Arem
 date: '2018-01-01T00:00:00Z'
+lastmod: '2025-12-06T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Case Studies on Transport Policy*, 7, 48–56'
 featured: true
