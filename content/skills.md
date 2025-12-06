@@ -19,147 +19,220 @@ sections:
       title: Languages
       text: |
         <style>
-        .language-grid {
-          display: grid;
-          gap: 1.5rem;
-          margin-top: 2rem;
+        .language-proficiency {
+          width: 100%;
+          max-width: 1200px;
+          margin: 2rem auto;
+        }
+        
+        .level-markers {
+          display: flex;
+          margin-bottom: 0.5rem;
+          padding-left: 220px;
+          position: relative;
+        }
+        
+        .level-marker {
+          flex: 1;
+          text-align: center;
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: #00d4ff;
+          position: relative;
+        }
+        
+        .level-marker::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 24px;
+          width: 1px;
+          height: 8px;
+          background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .level-marker:last-child::after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 24px;
+          width: 1px;
+          height: 8px;
+          background: rgba(255, 255, 255, 0.3);
         }
         
         .language-row {
-          display: grid;
-          grid-template-columns: 200px 1fr;
+          display: flex;
           align-items: center;
-          gap: 1.5rem;
+          margin-bottom: 1.5rem;
+          gap: 20px;
         }
         
-        .language-name {
+        .language-label {
+          min-width: 200px;
           font-weight: 600;
           color: #00d4ff;
-          font-size: 1.1rem;
+          font-size: 1.05rem;
         }
         
         .language-note {
-          font-size: 0.85rem;
+          display: block;
+          font-size: 0.75rem;
           color: #888;
-          margin-left: 0.5rem;
+          margin-top: 2px;
         }
         
-        .cefr-bar-container {
-          position: relative;
+        .progress-container {
+          flex: 1;
+          height: 32px;
           background: rgba(0, 0, 0, 0.6);
           border: 1px solid #333;
-          border-radius: 8px;
-          padding: 8px;
-          display: flex;
-          gap: 4px;
-        }
-        
-        .cefr-level {
-          flex: 1;
-          height: 35px;
-          background: rgba(50, 50, 50, 0.5);
-          border-radius: 4px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 0.75rem;
-          font-weight: 600;
-          color: #666;
+          border-radius: 6px;
           position: relative;
-          transition: all 0.3s ease;
+          overflow: hidden;
         }
         
-        .cefr-level.filled {
-          background: linear-gradient(135deg, #00d4ff 0%, #00a8cc 100%);
-          color: #000;
-          box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+        .progress-bar {
+          height: 100%;
+          background: linear-gradient(90deg, #00d4ff 0%, #00a8cc 100%);
+          box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+          transition: width 0.5s ease;
+          position: relative;
         }
         
-        .cefr-level.filled::after {
-          content: '✓';
+        .progress-bar::after {
+          content: '';
           position: absolute;
-          right: 4px;
-          top: 2px;
-          font-size: 0.7rem;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          width: 2px;
+          background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .level-dividers {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          display: flex;
+          pointer-events: none;
+        }
+        
+        .level-divider {
+          flex: 1;
+          border-left: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .level-divider:first-child {
+          border-left: none;
         }
         </style>
         
-        <div class="language-grid">
+        <div class="language-proficiency">
+          <div class="level-markers">
+            <div class="level-marker">A1</div>
+            <div class="level-marker">A2</div>
+            <div class="level-marker">B1</div>
+            <div class="level-marker">B2</div>
+            <div class="level-marker">C1</div>
+            <div class="level-marker">C2</div>
+          </div>
+          
           <div class="language-row">
-            <div class="language-name">
+            <div class="language-label">
               Persian
               <span class="language-note">(mother tongue)</span>
             </div>
-            <div class="cefr-bar-container">
-              <div class="cefr-level filled">A1</div>
-              <div class="cefr-level filled">A2</div>
-              <div class="cefr-level filled">B1</div>
-              <div class="cefr-level filled">B2</div>
-              <div class="cefr-level filled">C1</div>
-              <div class="cefr-level filled">C2</div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 100%;"></div>
+              <div class="level-dividers">
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+              </div>
             </div>
           </div>
           
           <div class="language-row">
-            <div class="language-name">
+            <div class="language-label">
               Azeri
               <span class="language-note">(bilingual)</span>
             </div>
-            <div class="cefr-bar-container">
-              <div class="cefr-level filled">A1</div>
-              <div class="cefr-level filled">A2</div>
-              <div class="cefr-level filled">B1</div>
-              <div class="cefr-level filled">B2</div>
-              <div class="cefr-level filled">C1</div>
-              <div class="cefr-level filled">C2</div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 100%;"></div>
+              <div class="level-dividers">
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+              </div>
             </div>
           </div>
           
           <div class="language-row">
-            <div class="language-name">English</div>
-            <div class="cefr-bar-container">
-              <div class="cefr-level filled">A1</div>
-              <div class="cefr-level filled">A2</div>
-              <div class="cefr-level filled">B1</div>
-              <div class="cefr-level filled">B2</div>
-              <div class="cefr-level filled">C1</div>
-              <div class="cefr-level filled">C2</div>
+            <div class="language-label">English</div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 100%;"></div>
+              <div class="level-dividers">
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+              </div>
             </div>
           </div>
           
           <div class="language-row">
-            <div class="language-name">Turkish</div>
-            <div class="cefr-bar-container">
-              <div class="cefr-level filled">A1</div>
-              <div class="cefr-level filled">A2</div>
-              <div class="cefr-level filled">B1</div>
-              <div class="cefr-level filled">B2</div>
-              <div class="cefr-level">C1</div>
-              <div class="cefr-level">C2</div>
+            <div class="language-label">Turkish</div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 66.67%;"></div>
+              <div class="level-dividers">
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+              </div>
             </div>
           </div>
           
           <div class="language-row">
-            <div class="language-name">Dutch</div>
-            <div class="cefr-bar-container">
-              <div class="cefr-level filled">A1</div>
-              <div class="cefr-level filled">A2</div>
-              <div class="cefr-level filled">B1</div>
-              <div class="cefr-level">B2</div>
-              <div class="cefr-level">C1</div>
-              <div class="cefr-level">C2</div>
+            <div class="language-label">Dutch</div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 50%;"></div>
+              <div class="level-dividers">
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+              </div>
             </div>
           </div>
           
           <div class="language-row">
-            <div class="language-name">French</div>
-            <div class="cefr-bar-container">
-              <div class="cefr-level filled">A1</div>
-              <div class="cefr-level filled">A2</div>
-              <div class="cefr-level filled">B1</div>
-              <div class="cefr-level">B2</div>
-              <div class="cefr-level">C1</div>
-              <div class="cefr-level">C2</div>
+            <div class="language-label">French</div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 50%;"></div>
+              <div class="level-dividers">
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+                <div class="level-divider"></div>
+              </div>
             </div>
           </div>
         </div>
