@@ -104,3 +104,26 @@ body {
     padding-top: 70px !important;
     /* Adjust based on actual navbar height */
 }
+
+/* ========================================
+   Remove Gradient Bars Below Navbar
+   ======================================== */
+
+/* Hide any hero/background gradient bars that appear below navbar */
+.hb-announcement-bar,
+header+div:not(.page-body),
+.hero-gradient,
+.page-header-gradient {
+    display: none !important;
+}
+
+/* Ensure no extra space/bars between navbar and content */
+header.hb-header+* {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Remove any border/gradient from elements immediately after header */
+body>div:first-of-type:not(.page-body) {
+    display: none !important;
+}
