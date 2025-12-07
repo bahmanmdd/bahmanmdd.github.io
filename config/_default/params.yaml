@@ -5,7 +5,7 @@
 
 # Appearance
 appearance:
-  mode: system
+  mode: dark
   color: cyan
 
 # SEO
@@ -21,7 +21,7 @@ header:
     block: 'navbar'
     fixed_to_top: true
     show_search: false
-    show_theme_chooser: true
+    show_theme_chooser: false
     logo:
       text: 'Bahman Madadi'
 

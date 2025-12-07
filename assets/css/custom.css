@@ -1,129 +1,54 @@
 /* Custom CSS overrides for bahmanmdd.github.io */
 
-/* Fix hyperlinks in Supervision tab - Remove underline, make cyan/bold */
-/* Ultra-specific selectors to override Tailwind prose styles */
-.prose.prose-slate a,
-.prose.prose-slate.lg\:prose-xl a,
-.prose.prose-slate.dark\:prose-invert a,
-.prose.prose-slate.lg\:prose-xl.dark\:prose-invert a,
-.prose h3 a,
-.prose-slate h3 a,
-.blox-markdown .prose a,
-.blox-markdown .prose-slate a,
-section.blox-markdown .prose a,
-section.blox-markdown .prose-slate a {
-    text-decoration: none !important;
-    color: #00d4ff !important;
-    /* Cyan color matching theme */
-    font-weight: 700 !important;
-    /* Bold */
-    text-decoration-line: none !important;
-    text-decoration-style: none !important;
-}
-
-/* Maintain hover effect */
-.prose.prose-slate a:hover,
-.prose.prose-slate.lg\:prose-xl a:hover,
-.prose.prose-slate.dark\:prose-invert a:hover,
-.prose.prose-slate.lg\:prose-xl.dark\:prose-invert a:hover,
-.prose h3 a:hover,
-.prose-slate h3 a:hover,
-.blox-markdown .prose a:hover,
-.blox-markdown .prose-slate a:hover,
-section.blox-markdown .prose a:hover,
-section.blox-markdown .prose-slate a:hover {
-    text-decoration: none !important;
-    opacity: 0.8 !important;
-    filter: brightness(1.2) !important;
-    text-decoration-line: none !important;
-}
-
-/* Ensure smooth scrolling through all sections */
-html {
-    scroll-behavior: smooth;
-    overflow-y: auto !important;
-}
-
+/* Force dark mode - disable light mode */
+html,
 body {
-    overflow-y: auto !important;
-    height: auto !important;
+    background-color: #0a0a0a !important;
+    color: #ffffff !important;
 }
 
-/* Fix potential height constraints that prevent scrolling */
-main,
-.container,
-.content {
-    min-height: 100vh;
-    height: auto !important;
-    overflow: visible !important;
+html[data-mode="light"],
+body[data-mode="light"] {
+    background-color: #0a0a0a !important;
+    color: #ffffff !important;
 }
 
-/* ========================================
-   Fix Navigation Bar Visibility on Scroll
-   ======================================== */
 
-/* Force navbar to stay fixed at top during scroll */
-header.hb-header,
-nav.navbar,
-.hb-header {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
-    z-index: 1000 !important;
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    /* Black with 80% opacity (20% transparency) */
-    backdrop-filter: blur(10px) !important;
-    /* Add blur effect for better readability */
+/* Make institution/organization names white */
+.resume-biography-3 .organization a,
+.biography .organization a,
+a[href*="univ-gustave-eiffel"],
+a[href*="entpe"] {
+    color: white !important;
 }
 
-/* Make navbar text and links neon cyan */
-header.hb-header a,
-nav.navbar a,
-.hb-header a,
-header.hb-header .nav-link,
-nav.navbar .nav-link,
-.hb-header .nav-link {
-    color: #00d4ff !important;
-    /* Neon cyan text */
-}
-
-/* Navbar text hover effect */
-header.hb-header a:hover,
-nav.navbar a:hover,
-.hb-header a:hover {
-    color: #00ffff !important;
-    /* Brighter cyan on hover */
-    text-shadow: 0 0 10px rgba(0, 212, 255, 0.8) !important;
-    /* Glow effect on hover */
-}
-
-/* Add padding to main content to prevent overlap with fixed navbar */
-body {
-    padding-top: 70px !important;
-    /* Adjust based on actual navbar height */
-}
-
-/* ========================================
-   Remove Gradient Bars Below Navbar
-   ======================================== */
-
-/* Hide any hero/background gradient bars that appear below navbar */
-.hb-announcement-bar,
-header+div:not(.page-body),
-.hero-gradient,
-.page-header-gradient {
-    display: none !important;
-}
-
-/* Ensure no extra space/bars between navbar and content */
-header.hb-header+* {
+/* Reduce excessive top spacing on bio page */
+.resume-biography-3,
+section:first-of-type,
+.hb-section:first-of-type {
+    padding-top: 0.5rem !important;
     margin-top: 0 !important;
-    padding-top: 0 !important;
 }
 
-/* Remove any border/gradient from elements immediately after header */
-body>div:first-of-type:not(.page-body) {
-    display: none !important;
+/* Make only prose/markdown content links neon cyan without underline */
+/* Target links within prose/markdown areas that are normally underlined */
+.prose a,
+.prose-slate a,
+.blox-markdown a,
+article p a,
+section p a,
+.markdown a {
+    color: #00d4ff !important;
+    text-decoration: none !important;
+}
+
+/* Maintain hover effect for prose links */
+.prose a:hover,
+.prose-slate a:hover,
+.blox-markdown a:hover,
+article p a:hover,
+section p a:hover,
+.markdown a:hover {
+    opacity: 0.8;
+    filter: brightness(1.2);
 }
