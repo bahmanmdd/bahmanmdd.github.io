@@ -164,16 +164,16 @@ work:
   - position: Software Analyst
     company_name: Nur ICT
     company_url: ''
-    date_start: 2010-01-01
-    date_end: 2012-12-31
+    date_start: 2010-09-01
+    date_end: 2012-09-30
     summary: |
       Specifying customer needs for transportation & logistics service providers. Quality Deployment of specifically tailored ERP platforms.
 
   - position: Junior Analyst
     company_name: Institute of Technological Research and Development
     company_url: ''
-    date_start: 2008-01-01
-    date_end: 2010-12-31
+    date_start: 2008-09-01
+    date_end: 2010-09-30
     summary: |
       Documenting and revising Standard Operating Procedures for brainstorming sessions.
 
