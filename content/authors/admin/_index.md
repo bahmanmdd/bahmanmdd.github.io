@@ -79,6 +79,16 @@ education:
     date_end: 2014-12-31
     summary: |
       Graduated with honors, CGPA: 3.51 / 4
+  - area: BSc, Industrial Engineering (discontinued)
+    institution: Sharif University of Technology
+    location: Tehran, Iran
+    date_start: 2004-01-01
+    date_end: 2008-12-31
+    summary: |
+      Department of Industrial Engineering
+      
+      Entered with the ranking of 353 (top 1%) in the national university entrance exam (Concours)
+    show_in_bio: false
 
 
 work:
