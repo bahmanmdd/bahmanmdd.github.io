@@ -61,6 +61,9 @@ education:
     date_start: 2016-08-01
     date_end: 2021-01-31
     summary: |
+      **Faculty of Civil Engineering and Geosciences** ([Top 10 globally, QS World University Rankings](https://www.qschina.cn/en/university-rankings/university-subject-rankings/2024/civil-and-structural-engineering))
+      Department of Transport & Planning
+      
       Thesis: Design and Optimization of Road Networks for Automated Vehicles
       
       Fully funded by an NWO grant.
