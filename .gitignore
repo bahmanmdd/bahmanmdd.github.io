@@ -56,6 +56,10 @@ static/pagefind/
 # Private task tracking
 TODO.md
 
+# Backup and unused media files
+assets/media/icon_original_backup.png
+assets/media/logo.png
+
 # ============================================================================
 # Operating System
 # ============================================================================
