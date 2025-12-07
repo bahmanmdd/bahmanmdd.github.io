@@ -42,6 +42,8 @@ locale:
 
 # Site features
 features:
+  search:
+    provider: pagefind
   math:
     enable: false
   privacy_pack:

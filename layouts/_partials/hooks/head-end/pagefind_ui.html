@@ -1,0 +1,5 @@
+<!-- Load Pagefind UI assets -->
+{{ if eq .Site.Params.features.search.provider "pagefind" }}
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js"></script>
+{{ end }}
