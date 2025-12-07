@@ -82,8 +82,8 @@ education:
   - area: BSc, Industrial Engineering (discontinued)
     institution: Sharif University of Technology
     location: Tehran, Iran
-    date_start: 2004-01-01
-    date_end: 2008-12-31
+    date_start: 2004-09-01
+    date_end: 2008-06-30
     summary: |
       Department of Industrial Engineering
       
