@@ -3,6 +3,7 @@
 title: ''
 date: 2022-10-24
 type: landing
+description: 'Bahman Madadi - Assistant Professor at Université Gustave Eiffel & ENTPE. Research in Graph Neural Networks, Deep Learning, Transport Network Design, and Zero-Emission Mobility. Expert in GNN, optimization, and intelligent transportation systems.'
 
 design:
   # Default section spacing
