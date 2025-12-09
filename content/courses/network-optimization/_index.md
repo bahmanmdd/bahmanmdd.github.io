@@ -17,7 +17,7 @@ sections:
         This graduate-level course teaches **multimodal transport network modeling**, equilibrium analysis, and network design optimization for strategic planning. Students learn to evaluate transport infrastructure changes using computational models and real-world case studies implemented in **Python**.
         
         **Instructor**: Bahman Madadi  
-        **Guest Lecturer**: Angelo Furno (HDR)  
+        **Guest Lecturer**: [Prof. Angelo Furno, HDR](https://www.linkedin.com/in/angelofurno/)  
         **Format**: 10 sessions including lectures, hands-on practice, and project presentations
         
         ## Learning Objectives

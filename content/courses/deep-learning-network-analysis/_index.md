@@ -17,6 +17,7 @@ sections:
         This graduate-level course introduces deep learning techniques with a focus on **Graph Neural Networks (GNNs)** for analyzing dynamic networks. Students learn to implement neural network architectures using **PyTorch** and apply these techniques to engineering problems in transportation and urban systems.
         
         **Instructor**: Bahman Madadi  
+        **Co-instructors**: Zhixiong (Tony) Jin, Romain Rochas  
         **Format**: 8 sessions including lectures, hands-on practice, and project presentations
         
         ## Learning Objectives
