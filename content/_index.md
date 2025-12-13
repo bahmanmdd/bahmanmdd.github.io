@@ -2,6 +2,7 @@
 title: _index  
 date: 2022-10-24
 type: landing
+description: 'Bahman Madadi - Assistant Professor at Université Gustave Eiffel & ENTPE, EMob-Lab (Energy & Mobility Laboratory). Research in Graph Neural Networks, Deep Learning, Transport Network Design, and Zero-Emission Mobility. Expert in GNN, optimization, and intelligent transportation systems.'
 
 design:
   spacing: '6rem'
