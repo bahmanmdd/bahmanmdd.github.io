@@ -44,7 +44,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.nl/citations?user=UehhC-AAAAAJ&hl=en&oi=sra
   - icon: custom/rerite-logo
-    url: https://www.rerite.org/
+    url: https://www.rerite.org/team.html
     label: RERITE Steering Committee
 
 interests:
