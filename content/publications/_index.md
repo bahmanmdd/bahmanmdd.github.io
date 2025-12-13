@@ -4,79 +4,30 @@ date: 2022-10-24
 type: landing
 
 sections:
+  # Featured/Highlighted Publications
   - block: collection
     content:
-      title: Journal Articles
+      title: Featured Publications
+      subtitle: Highlights of my research contributions
       filters:
         folders:
           - publications
-        publication_type: 'article-journal'
+        featured_only: true
     design:
-      view: citation
-      columns: 1
+      view: article-grid
+      columns: 2
   
+  # All Publications organized by date
   - block: collection
     content:
-      title: Conference Papers
+      title: Complete Publication List
+      text: |
+        **Publication Types:**  
+        📄 Journal Articles | 🎓 Conference Papers | 📚 Book Chapters | 🎯 PhD Thesis | 📑 Technical Reports | 📝 Preprints | 📰 Popular Science
       filters:
         folders:
           - publications
-        publication_type: 'paper-conference'
-    design:
-      view: citation
-      columns: 1
-  
-  - block: collection
-    content:
-      title: Book Chapters
-      filters:
-        folders:
-          - publications
-        publication_type: 'chapter'
-    design:
-      view: citation
-      columns: 1
-  
-  - block: collection
-    content:
-      title: PhD Thesis
-      filters:
-        folders:
-          - publications
-        publication_type: 'thesis'
-    design:
-      view: citation
-      columns: 1
-  
-  - block: collection
-    content:
-      title: Technical Reports
-      filters:
-        folders:
-          - publications
-        publication_type: 'report'
-    design:
-      view: citation
-      columns: 1
-  
-  - block: collection
-    content:
-      title: Preprints
-      filters:
-        folders:
-          - publications
-        publication_type: 'manuscript'
-    design:
-      view: citation
-      columns: 1
-  
-  - block: collection
-    content:
-      title: Popular Science & Magazine Articles
-      filters:
-        folders:
-          - publications
-        publication_type: 'article-magazine'
+        exclude_featured: false
     design:
       view: citation
       columns: 1

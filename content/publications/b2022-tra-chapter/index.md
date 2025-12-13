@@ -4,7 +4,7 @@ authors:
   - admin
   - M Snelder
   - Gonçalo Homem de Almeida Correia
-date: '2022-01-01T00:00:00Z'
+date: '2026-01-01T00:00:00Z'
 publication_types: ['chapter']
 publication: '*Book Chapter from TRA Conference Proceedings*'
 featured: false
