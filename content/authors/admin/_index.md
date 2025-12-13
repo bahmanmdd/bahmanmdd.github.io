@@ -43,6 +43,9 @@ profiles:
     url: https://github.com/bahmanmdd
   - icon: academicons/google-scholar
     url: https://scholar.google.nl/citations?user=UehhC-AAAAAJ&hl=en&oi=sra
+  - icon: custom/rerite-logo
+    url: https://www.rerite.org/
+    label: RERITE Steering Committee
 
 interests:
   - Graph Neural Networks
@@ -93,6 +96,9 @@ work:
     date_end: ''
     summary: |
       **Department**: Transport and Traffic Engineering Laboratory ([LICIT-ECO7](https://licit-lyon.eu/))
+      
+      **Leadership & Service**:
+      * Steering Committee Member, [RERITE Working Group](https://www.rerite.org/) (REproducible Research In Transportation Engineering) - Global initiative advancing open science and reproducibility in transportation research
       
       **Research Focus**:
       * Enabling seamless zero-emission multimodal mobility by optimal design of multimodal mobility networks
@@ -263,4 +269,4 @@ languages:
 awards: []
 ---
 
-Assistant Professor at Université Gustave Eiffel & ENTPE within the Transport and Traffic Engineering Laboratory (LICIT-ECO7). My research focuses on learning-based optimization in transport and energy, specifically enabling seamless zero-emission multimodal mobility. I specialize in Graph Neural Networks, Deep Learning, and Operations Research to solve complex problems in transport network design, traffic simulation, and geospatial data analysis.
+Assistant Professor at Université Gustave Eiffel & ENTPE within the Transport and Traffic Engineering Laboratory (LICIT-ECO7). My research focuses on learning-based optimization in transport and energy, specifically enabling seamless zero-emission multimodal mobility. I specialize in Graph Neural Networks, Deep Learning, and Operations Research to solve complex problems in transport network design, traffic simulation, and geospatial data analysis. I serve on the Steering Committee of the [RERITE Working Group](https://www.rerite.org/), advancing reproducible research practices in transportation engineering.
