@@ -1,21 +1,16 @@
 ---
-# Leave the homepage title empty to use the site title
-title: ''
+title: _index  
 date: 2022-10-24
 type: landing
-description: 'Bahman Madadi - Assistant Professor at Université Gustave Eiffel & ENTPE. Research in Graph Neural Networks, Deep Learning, Transport Network Design, and Zero-Emission Mobility. Expert in GNN, optimization, and intelligent transportation systems.'
 
 design:
-  # Default section spacing
   spacing: '6rem'
 
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ''
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Resume
         url: uploads/BahmanMadadi_Resume.pdf
@@ -26,24 +21,18 @@ sections:
         skills: ''
         languages: ''
     design:
-      # Apply a gradient background
       css_class: hbx-bg-gradient
-      # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium
+        shape: circle
   - block: collection
     id: papers
     content:
       title: Featured Publications
-      count: 5
       filters:
         folders:
           - publications
         featured_only: true
-      link:
-        text: See all publications
-        url: publications/
     design:
       view: article-grid
       columns: 2
@@ -60,7 +49,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Recent &amp; Upcoming Talks
       filters:
         folders:
           - events
