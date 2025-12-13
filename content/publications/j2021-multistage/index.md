@@ -9,7 +9,7 @@ date: '2021-01-01T00:00:00Z'
 lastmod: '2025-12-06T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Computers and Operations Research*, 136'
-featured: true
+featured: false
 image:
   filename: featured.jpg
   focal_point: Center

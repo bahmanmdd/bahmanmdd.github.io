@@ -10,7 +10,7 @@ authors:
 date: '2023-09-01T00:00:00Z'
 publication_types: ['paper-conference']
 publication: '*European Working Group in Transportation (EWGT)*, Spain'
-featured: true
+featured: false
 hugoblox:
   ids:
     doi: 10.48550/arXiv.2311.01268
