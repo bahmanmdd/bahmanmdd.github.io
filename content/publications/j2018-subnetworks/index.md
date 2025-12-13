@@ -20,6 +20,9 @@ hugoblox:
     doi: 10.1016/j.cstp.2018.11.006
 links:
   - type: pdf
+    name: PDF (TU Delft Repository)
+    url: uploads/publications/j2018-subnetworks.pdf
+  - name: Publisher (DOI)
     url: https://doi.org/10.1016/j.cstp.2018.11.006
 ---
 

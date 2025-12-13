@@ -20,6 +20,9 @@ hugoblox:
     doi: 10.1111/mice.12498
 links:
   - type: pdf
+    name: PDF (TU Delft Repository)
+    url: uploads/publications/j2020-bilevel-evo.pdf
+  - name: Publisher (DOI)
     url: https://doi.org/10.1111/mice.12498
 ---
 

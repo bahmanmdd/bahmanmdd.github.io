@@ -20,6 +20,9 @@ hugoblox:
     doi: 10.1016/j.cor.2021.105483
 links:
   - type: pdf
+    name: PDF (TU Delft Repository)
+    url: uploads/publications/j2021-multistage.pdf
+  - name: Publisher (DOI)
     url: https://doi.org/10.1016/j.cor.2021.105483
 ---
 

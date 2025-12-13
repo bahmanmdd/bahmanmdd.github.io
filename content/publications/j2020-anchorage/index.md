@@ -12,6 +12,9 @@ hugoblox:
     doi: 10.1016/j.eswa.2019.113170
 links:
   - type: pdf
+    name: PDF (TU Delft Repository)
+    url: uploads/publications/j2020-anchorage.pdf
+  - name: Publisher (DOI)
     url: https://doi.org/10.1016/j.eswa.2019.113170
   - name: Code
     url: https://github.com/bahmanmdd/DAP

@@ -18,6 +18,9 @@ hugoblox:
     doi: 10.1016/j.eswa.2023.122814
 links:
   - type: pdf
+    name: PDF (TU Delft Repository)
+    url: uploads/publications/j2024-hybrid-dl.pdf
+  - name: Publisher (DOI)
     url: https://doi.org/10.1016/j.eswa.2023.122814
   - name: Code
     url: https://github.com/bahmanmdd/HDLMF_GIN-GA

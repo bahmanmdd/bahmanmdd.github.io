@@ -20,6 +20,9 @@ hugoblox:
     doi: 10.1155/2021/8853583
 links:
   - type: pdf
+    name: PDF (TU Delft Repository)
+    url: uploads/publications/j2021-dedicated-networks.pdf
+  - name: Publisher (DOI)
     url: https://doi.org/10.1155/2021/8853583
 ---
 
