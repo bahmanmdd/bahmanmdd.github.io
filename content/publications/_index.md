@@ -47,4 +47,37 @@ sections:
     design:
       view: citation
       columns: 1
+  
+  - block: collection
+    content:
+      title: Technical Reports
+      filters:
+        folders:
+          - publications
+        publication_type: 'report'
+    design:
+      view: citation
+      columns: 1
+  
+  - block: collection
+    content:
+      title: Preprints
+      filters:
+        folders:
+          - publications
+        publication_type: 'manuscript'
+    design:
+      view: citation
+      columns: 1
+  
+  - block: collection
+    content:
+      title: Popular Science & Magazine Articles
+      filters:
+        folders:
+          - publications
+        publication_type: 'article-magazine'
+    design:
+      view: citation
+      columns: 1
 ---
