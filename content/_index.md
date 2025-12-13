@@ -36,10 +36,14 @@ sections:
     id: papers
     content:
       title: Featured Publications
+      count: 5
       filters:
         folders:
           - publications
         featured_only: true
+      link:
+        text: See all publications
+        url: publications/
     design:
       view: article-grid
       columns: 2
