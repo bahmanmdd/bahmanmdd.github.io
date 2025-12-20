@@ -63,7 +63,7 @@ education:
     summary: |
       **Faculty of Civil Engineering and Geosciences** ([Top 10 globally, QS World University Rankings](https://www.qschina.cn/en/university-rankings/university-subject-rankings/2024/civil-and-structural-engineering))
       
-      Department of Transport & Planning
+      **Department of Transport & Planning** ([Top 5 worldwide according to Shanghai world university subject ranking in Transportation Science and Technology](https://www.shanghairanking.com/rankings/gras/2025/AS0223))
       
       Thesis: Design and Optimization of Road Networks for Automated Vehicles
       
