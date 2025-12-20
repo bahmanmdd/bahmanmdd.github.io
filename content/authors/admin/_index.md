@@ -56,14 +56,18 @@ interests:
   - Zero-Emission Mobility
 
 education:
-  - area: PhD, Design and optimization of road networks for automated vehicles
+  - area: PhD, Transportation Science & Technology
     institution: Delft University of Technology
     date_start: 2016-08-01
     date_end: 2021-01-31
     summary: |
-      **Faculty of Civil Engineering and Geosciences** ([Top 10 globally, QS World University Rankings](https://www.qschina.cn/en/university-rankings/university-subject-rankings/2024/civil-and-structural-engineering))
+      **Faculty of Civil Engineering and Geosciences**
       
-      **Department of Transport & Planning** ([Top 5 worldwide according to Shanghai world university subject ranking in Transportation Science and Technology](https://www.shanghairanking.com/rankings/gras/2025/AS0223))
+      [Top 10 Globally, QS World University Rankings](https://www.qschina.cn/en/university-rankings/university-subject-rankings/2024/civil-and-structural-engineering)
+      
+      **Department of Transport & Planning**
+      
+      [Top 5 Globally, Shanghai World Subject Ranking: Transportation Science & Technology](https://www.shanghairanking.com/rankings/gras/2025/AS0223)
       
       Thesis: Design and Optimization of Road Networks for Automated Vehicles
       
