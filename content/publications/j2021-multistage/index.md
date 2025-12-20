@@ -22,8 +22,6 @@ links:
   - type: pdf
     name: PDF (TU Delft Repository)
     url: uploads/publications/j2021-multistage.pdf
-  - name: Publisher (DOI)
-    url: https://doi.org/10.1016/j.cor.2021.105483
 ---
 
 This paper develops a multi-stage optimization framework for designing road networks that accommodate automated vehicles while considering elastic multi-class demand. Unlike traditional approaches that assume fixed travel demand, this method accounts for how infrastructure changes affect travel behavior across different user classes (manual vs. automated vehicle users). The multi-stage formulation enables gradual network transformation, recognizing that the transition to automated driving will occur over time. The research demonstrates how to optimize infrastructure investments across multiple stages while considering budget constraints and the evolving mix of vehicle types. Results show that staged implementation can achieve near-optimal outcomes while reducing upfront costs.

@@ -22,8 +22,6 @@ links:
   - type: pdf
     name: PDF (TU Delft Repository)
     url: uploads/publications/j2020-bilevel-evo.pdf
-  - name: Publisher (DOI)
-    url: https://doi.org/10.1111/mice.12498
 ---
 
 This paper presents a bi-level optimization model and evolutionary local search algorithm for optimizing road networks during the transition period when both manual and automated vehicles coexist. The bi-level formulation captures the interaction between network design decisions (upper level) and user route choices (lower level) for heterogeneous vehicle types. An efficient evolutionary local search algorithm is developed to handle the computational challenges of solving this large-scale bi-level problem. The method enables transportation planners to identify cost-effective network modifications that improve overall system performance for mixed traffic conditions. Numerical experiments demonstrate the algorithm's effectiveness in finding high-quality solutions for realistic network sizes.

@@ -20,6 +20,4 @@ links:
   - type: pdf
     name: PDF (TU Delft Repository)
     url: uploads/publications/j2025-av-scenarios.pdf
-  - name: Publisher (DOI)
-    url: https://doi.org/10.59490/ejtir.2025.25.1.7407
 ---

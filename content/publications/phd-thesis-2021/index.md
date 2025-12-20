@@ -22,6 +22,4 @@ links:
   - type: pdf
     name: PDF (TU Delft Repository)
     url: uploads/publications/phd-thesis-2021.pdf
-  - name: Publisher (DOI)
-    url: https://doi.org/10.4233/uuid:c21d4943-b848-4e77-b5b8-a5423f751dbd
 ---
