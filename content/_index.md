@@ -50,7 +50,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent &amp; Upcoming Talks
+      title: Recent Talks
       filters:
         folders:
           - events
