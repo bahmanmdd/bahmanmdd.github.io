@@ -52,3 +52,47 @@ section p a:hover,
     opacity: 0.8;
     filter: brightness(1.2);
 }
+
+/* --- Background Video Fixes --- */
+
+/* Ensure the biography section is transparent to show the video */
+#section-resume-biography-3,
+.resume-biography-3 {
+    background: transparent !important;
+    position: relative !important;
+    z-index: 0 !important;
+    /* Force a new stacking context */
+}
+
+/* Force the video to be visible and add the smooth fade loop */
+.resume-biography-3 video,
+#section-resume-biography-3 video {
+    filter: brightness(0.35) contrast(0.8) grayscale(0.2) !important;
+    /* Slightly darker for better readability */
+    animation: videoFadeLoop 8s infinite ease-in-out;
+    opacity: 0.5 !important;
+    visibility: visible !important;
+    object-position: center center !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Smooth fade animation: Hides the jump at the end of the loop */
+@keyframes videoFadeLoop {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.5;
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

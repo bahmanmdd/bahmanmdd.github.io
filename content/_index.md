@@ -22,7 +22,9 @@ sections:
         skills: ''
         languages: ''
     design:
-      css_class: hbx-bg-gradient
+      background:
+        video:
+          filename: background.mp4
       avatar:
         size: medium
         shape: circle
