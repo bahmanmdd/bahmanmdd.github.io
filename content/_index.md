@@ -24,7 +24,7 @@ sections:
     design:
       background:
         video:
-          filename: background.mp4
+          filename: background_pp.mp4
       avatar:
         size: medium
         shape: circle
