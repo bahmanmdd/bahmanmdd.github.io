@@ -69,7 +69,7 @@ section p a:hover,
 #section-resume-biography-3 video {
     filter: brightness(0.35) contrast(0.8) grayscale(0.2) !important;
     /* Slightly darker for better readability */
-    animation: videoFadeLoop 8s infinite ease-in-out;
+    animation: videoFadeLoop 16s infinite ease-in-out;
     opacity: 0.5 !important;
     visibility: visible !important;
     object-position: center center !important;
