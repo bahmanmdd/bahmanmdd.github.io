@@ -6,7 +6,7 @@
 # Website name
 title: Bahman Madadi
 # Website URL
-baseURL: 'https://bahmanmdd.github.io/'
+baseURL: 'https://bahmanmadadi.com/'
 
 ############################
 ## LANGUAGE
@@ -31,7 +31,7 @@ enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
-disableAliases: true
+disableAliases: false
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
