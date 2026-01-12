@@ -22,12 +22,16 @@ a[href*="entpe"] {
     color: white !important;
 }
 
-/* Reduce excessive top spacing on bio page */
+/* Ensure bio page fills the screen and remove top spacing */
 .resume-biography-3,
 section:first-of-type,
 .hb-section:first-of-type {
-    padding-top: 0.5rem !important;
+    padding-top: 0 !important;
     margin-top: 0 !important;
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
 }
 
 /* Make only prose/markdown content links neon cyan without underline */
@@ -67,15 +71,19 @@ section p a:hover,
 /* Force the video to be visible and add the smooth fade loop */
 .resume-biography-3 video,
 #section-resume-biography-3 video {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
     filter: brightness(0.35) contrast(0.8) grayscale(0.2) !important;
     /* Slightly darker for better readability */
-    animation: videoFadeLoop 16s infinite ease-in-out;
+    animation: videoFadeLoop 15s infinite ease-in-out;
     opacity: 0.5 !important;
     visibility: visible !important;
     object-position: center center !important;
     object-fit: cover !important;
     width: 100% !important;
     height: 100% !important;
+    z-index: -1 !important;
 }
 
 /* Smooth fade animation: Hides the jump at the end of the loop */
