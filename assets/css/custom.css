@@ -23,15 +23,21 @@ a[href*="entpe"] {
 }
 
 /* Ensure bio page fills the screen and remove top spacing */
+/* IMPORTANT: Be specific to avoid affecting other sections like share buttons */
 .resume-biography-3,
-section:first-of-type,
-.hb-section:first-of-type {
+.hb-section.resume-biography-3,
+main > section.hb-section:first-of-type {
     padding-top: 0 !important;
     margin-top: 0 !important;
     min-height: 100vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+}
+
+/* Fix share buttons - ensure they display horizontally */
+section.flex.flex-row {
+    flex-direction: row !important;
 }
 
 /* Make only prose/markdown content links neon cyan without underline */
