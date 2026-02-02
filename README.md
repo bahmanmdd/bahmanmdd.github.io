@@ -1,6 +1,6 @@
 # Bahman Madadi - Academic CV
 
-This repository hosts my academic CV website, built using the [Hugo Blox Academic CV template](https://github.com/HugoBlox/theme-academic-cv).
+This repository hosts my academic CV website, at https://bahmanmadadi.com/.
 
 ## About
 
@@ -24,8 +24,8 @@ This website showcases:
 ## Repository Structure
 
 - `/content/authors/admin/`: Personal profile and biography
-- `/content/publications/`: Academic publications (8 entries including PhD thesis)
-- `/content/events/`: Conference talks and presentations (11 entries)
+- `/content/publications/`: Academic publications
+- `/content/events/`: Conference talks and presentations
 - `/content/courses/`: Teaching and course information
 - `/master/`: Personal content source files (gitignored)
 
