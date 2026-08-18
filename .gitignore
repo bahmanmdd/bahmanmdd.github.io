@@ -44,6 +44,8 @@ node_modules/
 # IDE & Editors
 .vscode/
 .idea/
+*.code-workspace
+
 
 # ============================================================================
 # Generated Content
