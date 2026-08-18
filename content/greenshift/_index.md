@@ -295,7 +295,7 @@ sections:
             <tbody>
               <tr>
                 <td><strong>ENTPE / E-Mob Lab (Host)</strong></td>
-                <td>Dr. Bahman Madadi (Coordinator/PI)<br>Dr. Angelo Furno<br>Dr. Christine Buisson<br>Sina Sabzekar & Zohre M. Mosammam</td>
+                <td>Dr. Bahman Madadi (Coordinator/PI)<br>Dr. Angelo Furno<br>Dr. Christine Buisson</td>
                 <td>Project Coordination, AI/Surrogate Optimization, Stakeholder Engagement</td>
               </tr>
               <tr>
