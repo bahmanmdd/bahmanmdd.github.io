@@ -165,8 +165,14 @@ sections:
         }
 
         /* Table */
+        .gs-table-wrap {
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+        }
         .gs-partner-table {
           width: 100%;
+          min-width: 500px;
           border-collapse: collapse;
           margin: 1.5rem 0;
         }
@@ -180,6 +186,20 @@ sections:
           color: #00d4ff;
           font-weight: 600;
           background: rgba(255, 255, 255, 0.02);
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+          .gs-card-grid {
+            grid-template-columns: 1fr;
+          }
+          .gs-title {
+            font-size: 1.8rem;
+          }
+          .gs-tab-btn {
+            padding: 0.6rem 0.85rem;
+            font-size: 0.85rem;
+          }
         }
 
         /* Timeline */
@@ -284,6 +304,7 @@ sections:
 
         <div id="pane-team" class="gs-tab-pane">
           <h3>Academic Consortium</h3>
+          <div class="gs-table-wrap">
           <table class="gs-partner-table">
             <thead>
               <tr>
@@ -319,7 +340,7 @@ sections:
                 <td>Societal Acceptance, Qualitative Q-Methodology, Policy Governance</td>
               </tr>
             </tbody>
-          </table>
+          </table></div>
 
           <h3 style="margin-top: 2rem;">Stakeholder & Ecosystem Partners</h3>
           <p>Collaborations with regional and national stakeholders include <strong>CARA European Cluster for Mobility Solutions</strong>, <strong>CEREMA</strong>, and <strong>SYTRAL Mobilités</strong> to facilitate public participation and real-world deployment roadmaps.</p>
