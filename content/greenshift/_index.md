@@ -19,6 +19,8 @@ sections:
         <style>
         .gs-container {
           width: 100%;
+          max-width: 100%;
+          overflow-x: hidden;
           font-family: inherit;
         }
         .gs-header {
@@ -77,6 +79,8 @@ sections:
           padding-bottom: 0;
           margin-bottom: 2rem;
           overflow-x: auto;
+          width: 100%;
+          min-width: 0;
           scrollbar-width: none;
         }
         .gs-tab-nav::-webkit-scrollbar {
