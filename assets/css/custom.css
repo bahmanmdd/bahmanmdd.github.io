@@ -1,5 +1,24 @@
 /* Custom CSS overrides for bahmanmdd.github.io */
 
+/* ==========================================================
+   Fix mobile overflow on markdown/landing page sections.
+   HugoBlox wraps .prose in a flex container with items-center,
+   so children are sized by content (not viewport width).
+   On mobile, wide content (tab nav, grids) overflows the page.
+   Fix: clip at the section level + give .prose a proper width.
+   ========================================================== */
+.blox-markdown {
+    overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+    .blox-markdown > div,
+    .blox-markdown .prose {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 /* Force dark mode - disable light mode */
 html,
 body {
