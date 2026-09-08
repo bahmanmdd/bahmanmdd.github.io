@@ -98,6 +98,7 @@ work:
       
       **Leadership & Grants**:
       * Principal Investigator & Project Coordinator, [GREENSHIFT](/greenshift/) (ANR JCJC personal research grant on multimodal mobility hubs & network optimization, 2027–2031)
+      * Associate Editor, [Transportation Engineering](https://www.sciencedirect.com/journal/transportation-engineering/about/editorial-board) (Elsevier) - A journal championing open and reproducible research in transportation science
       * Steering Committee Member, [RERITE Working Group](https://www.rerite.org/) (REproducible Research In Transportation Engineering) - Global initiative advancing open science and reproducibility in transportation research
       
       **Research Focus**:
@@ -269,6 +270,6 @@ languages:
 awards: []
 ---
 
-Assistant Professor at Université Gustave Eiffel & ENTPE within the [EMob-Lab (Energy & Mobility Laboratory)](https://emob-lab.eu/), where I am the Principal Investigator and Coordinator of the [GREENSHIFT](/greenshift/) project—an ANR JCJC personal research grant awarded by the French National Research Agency to pioneer sustainable multimodal mobility hub networks. My research focuses on learning-based optimization in transport and energy, specifically enabling seamless zero-emission multimodal mobility. I specialize in Graph Neural Networks, Deep Learning, and Operations Research to solve complex problems in transport network design, traffic simulation, and geospatial data analysis. I also serve on the Steering Committee of the [RERITE Working Group](https://www.rerite.org/), advancing reproducible research practices in transportation engineering.
+Assistant Professor at Université Gustave Eiffel & ENTPE within the [EMob-Lab (Energy & Mobility Laboratory)](https://emob-lab.eu/), where I am the Principal Investigator and Coordinator of the [GREENSHIFT](/greenshift/) project—an ANR JCJC personal research grant awarded by the French National Research Agency to pioneer sustainable multimodal mobility hub networks. My research focuses on learning-based optimization in transport and energy, specifically enabling seamless zero-emission multimodal mobility. I specialize in Graph Neural Networks, Deep Learning, and Operations Research to solve complex problems in transport network design, traffic simulation, and geospatial data analysis. I serve as Associate Editor of [Transportation Engineering](https://www.sciencedirect.com/journal/transportation-engineering/about/editorial-board) (Elsevier), a journal dedicated to advancing open and reproducible research in transportation science, and on the Steering Committee of the [RERITE Working Group](https://www.rerite.org/), advancing reproducible research practices in transportation engineering.
 
 
