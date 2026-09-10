@@ -1,6 +1,18 @@
 /* Custom CSS overrides for bahmanmdd.github.io */
 
 /* ==========================================================
+   Unify publication/talk/course card thumbnails.
+   Source images vary wildly in brightness (custom dark neon
+   renders vs. light presentation-slide screenshots). A slight
+   uniform dim + desaturate keeps already-dark thumbnails almost
+   unchanged while toning down bright outliers, so the card grid
+   reads as one consistent moody set instead of a mixed bag.
+   ========================================================== */
+img.object-fill {
+    filter: brightness(0.75) saturate(0.7);
+}
+
+/* ==========================================================
    Fix mobile overflow on markdown/landing page sections.
    HugoBlox wraps .prose in a flex container with items-center,
    so children are sized by content (not viewport width).
