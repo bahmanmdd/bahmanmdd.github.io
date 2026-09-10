@@ -245,10 +245,8 @@ sections:
         </div>
 
         <div class="gs-tab-nav">
-          <button id="btn-overview" class="gs-tab-btn active" onclick="gsSwitchTab('overview')">🌿 Overview & Objectives</button>
-          <button id="btn-wps" class="gs-tab-btn" onclick="gsSwitchTab('wps')">🔬 Work Packages</button>
+          <button id="btn-overview" class="gs-tab-btn active" onclick="gsSwitchTab('overview')">🌿 Overview</button>
           <button id="btn-team" class="gs-tab-btn" onclick="gsSwitchTab('team')">🤝 Consortium & Partners</button>
-          <button id="btn-outputs" class="gs-tab-btn" onclick="gsSwitchTab('outputs')">💡 Expected Outputs</button>
           <button id="btn-news" class="gs-tab-btn" onclick="gsSwitchTab('news')">📢 News & Milestones</button>
           <button id="btn-vacancies" class="gs-tab-btn" onclick="gsSwitchTab('vacancies')">📋 Vacancies</button>
         </div>
@@ -276,9 +274,8 @@ sections:
               <p>Design a participatory transition methodology combining quantitative transport models with Q-methodology and open-source interactive decision-support dashboards to build institutional legitimacy and public consensus.</p>
             </div>
           </div>
-        </div>
 
-        <div id="pane-wps" class="gs-tab-pane">
+          <h3 style="margin-top: 2rem;">Work Packages</h3>
           <p>The project follows an incremental, cascading scientific structure coordinated from Lyon (primary continuous testbed) with international partner validation:</p>
           <div class="gs-card-grid">
             <div class="gs-card">
@@ -300,6 +297,30 @@ sections:
               <span class="gs-card-tag">WP3 · Governance & Transition</span>
               <div class="gs-card-title">Inclusive Transition Strategies</div>
               <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE)<br><strong>Partners:</strong> ENTPE, UGE, DLR (German Aerospace Center)<br>Bridges quantitative models with participatory Q-methodology and interactive dashboards to co-create consensus-driven transition roadmaps with stakeholders.</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top: 2rem;">Expected Outputs</h3>
+          <div class="gs-card-grid">
+            <div class="gs-card">
+              <span class="gs-card-tag">Output EO1</span>
+              <div class="gs-card-title">Scalable Optimization Engine</div>
+              <p>An open-source, scalable simulation-optimization framework combining MnMS with PIGNNs for city-scale mobility hub planning.</p>
+            </div>
+            <div class="gs-card">
+              <span class="gs-card-tag">Output EO2</span>
+              <div class="gs-card-title">Incentive & Equity Toolkit</div>
+              <p>A validated methodology and toolset for designing and evaluating equity-constrained incentive packages interacting with ZEZs.</p>
+            </div>
+            <div class="gs-card">
+              <span class="gs-card-tag">Output EO3</span>
+              <div class="gs-card-title">Decision-Support Tool</div>
+              <p>An open-source, interactive dashboard and validated transition roadmap enabling planners to explore progressive hub deployment scenarios.</p>
+            </div>
+            <div class="gs-card">
+              <span class="gs-card-tag">Output EO4</span>
+              <div class="gs-card-title">Open Science & Publications</div>
+              <p>Peer-reviewed articles in top open-access journals (CC-BY), open datasets on <em>recherche.data.gouv.fr</em>, and open software on GitHub.</p>
             </div>
           </div>
         </div>
@@ -348,33 +369,15 @@ sections:
           <p>Collaborations with regional and national stakeholders include <strong>CARA European Cluster for Mobility Solutions</strong>, <strong>CEREMA</strong>, and <strong>SYTRAL Mobilités</strong> to facilitate public participation and real-world deployment roadmaps.</p>
         </div>
 
-        <div id="pane-outputs" class="gs-tab-pane">
-          <div class="gs-card-grid">
-            <div class="gs-card">
-              <span class="gs-card-tag">Output EO1</span>
-              <div class="gs-card-title">Scalable Optimization Engine</div>
-              <p>An open-source, scalable simulation-optimization framework combining MnMS with PIGNNs for city-scale mobility hub planning.</p>
-            </div>
-            <div class="gs-card">
-              <span class="gs-card-tag">Output EO2</span>
-              <div class="gs-card-title">Incentive & Equity Toolkit</div>
-              <p>A validated methodology and toolset for designing and evaluating equity-constrained incentive packages interacting with ZEZs.</p>
-            </div>
-            <div class="gs-card">
-              <span class="gs-card-tag">Output EO3</span>
-              <div class="gs-card-title">Decision-Support Tool</div>
-              <p>An open-source, interactive dashboard and validated transition roadmap enabling planners to explore progressive hub deployment scenarios.</p>
-            </div>
-            <div class="gs-card">
-              <span class="gs-card-tag">Output EO4</span>
-              <div class="gs-card-title">Open Science & Publications</div>
-              <p>Peer-reviewed articles in top open-access journals (CC-BY), open datasets on <em>recherche.data.gouv.fr</em>, and open software on GitHub.</p>
-            </div>
-          </div>
-        </div>
-
         <div id="pane-news" class="gs-tab-pane">
           <div class="gs-timeline">
+            <div class="gs-timeline-item">
+              <div class="gs-timeline-date">September 2026</div>
+              <div style="font-weight: 600; color: #f1f5f9;">Postdoctoral Researcher Position Open (WP1)</div>
+              <p style="font-size: 0.925rem; color: #94a3b8; margin-top: 0.25rem;">
+                📌 We are recruiting a Postdoctoral Researcher to lead <strong>Work Package 1</strong>. Rolling deadline: 15 October 2026. See the <a href="#" onclick="gsSwitchTab('vacancies'); return false;">Vacancies tab</a> for full details and how to apply.
+              </p>
+            </div>
             <div class="gs-timeline-item">
               <div class="gs-timeline-date">August 2026</div>
               <div style="font-weight: 600; color: #f1f5f9;">Grant Acceptance Announcement</div>
