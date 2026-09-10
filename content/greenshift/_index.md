@@ -19,8 +19,6 @@ sections:
         <style>
         .gs-container {
           width: 100%;
-          max-width: 100%;
-          overflow-x: hidden;
           font-family: inherit;
         }
         .gs-header {
@@ -74,13 +72,12 @@ sections:
         /* Tab Navigation */
         .gs-tab-nav {
           display: flex;
+          flex-wrap: wrap;
           gap: 0.5rem;
           border-bottom: 2px solid rgba(255, 255, 255, 0.1);
           padding-bottom: 0;
           margin-bottom: 2rem;
           overflow-x: auto;
-          width: 100%;
-          min-width: 0;
           scrollbar-width: none;
         }
         .gs-tab-nav::-webkit-scrollbar {
@@ -253,6 +250,7 @@ sections:
           <button id="btn-team" class="gs-tab-btn" onclick="gsSwitchTab('team')">🤝 Consortium & Partners</button>
           <button id="btn-outputs" class="gs-tab-btn" onclick="gsSwitchTab('outputs')">💡 Expected Outputs</button>
           <button id="btn-news" class="gs-tab-btn" onclick="gsSwitchTab('news')">📢 News & Milestones</button>
+          <button id="btn-vacancies" class="gs-tab-btn" onclick="gsSwitchTab('vacancies')">📋 Vacancies</button>
         </div>
 
         <div id="pane-overview" class="gs-tab-pane active">
@@ -392,6 +390,64 @@ sections:
               </p>
             </div>
           </div>
+        </div>
+
+        <div id="pane-vacancies" class="gs-tab-pane">
+          <div class="gs-badges" style="margin-bottom: 1.5rem;">
+            <span class="gs-badge gs-badge-cyan">📌 WP1 · Postdoctoral Researcher</span>
+            <span class="gs-badge gs-badge-green">⏳ Deadline (rolling): 15 October 2026</span>
+            <span class="gs-badge gs-badge-purple">🚀 Start Date: February 2027</span>
+          </div>
+
+          <h3>About the GREENSHIFT Project</h3>
+          <p>The transition to zero-emission urban mobility requires more than just replacing combustion engines with electric vehicles. The GREENSHIFT project aims to design strategically placed, multimodal mobility hubs that seamlessly integrate shared electric vehicles, active micromobility, and public transport. By optimizing these hubs alongside targeted behavioral incentives and zero-emission zones, we can maximize infrastructure capacity, improve accessibility, and drive a sustainable shift in travel behavior.</p>
+
+          <h3 style="margin-top: 2rem;">The Role and the Challenge</h3>
+          <p>We are seeking a highly motivated Postdoctoral Researcher to lead <strong>Work Package 1</strong> of the GREENSHIFT project. Your primary objective will be to develop a scalable optimization and simulation framework for multimodal mobility hub network design.</p>
+          <p>The core challenge lies in solving a highly complex bi-level optimization problem: making strategic, city-scale infrastructure decisions (hub location, mode composition, and capacity) while dynamically anticipating intricate, individual-level traveler behavior (simultaneous multimodal route and mode choices). Because coupling large-scale network optimization directly with dynamic agent-based behavioral simulators is computationally intractable, you will explore advanced, AI-driven approximation techniques to bridge this gap.</p>
+
+          <p style="margin-top: 1.25rem;">You will be working at the intersection of:</p>
+          <div class="gs-card-grid">
+            <div class="gs-card">
+              <span class="gs-card-tag">Deep Learning & Surrogate Modeling</span>
+              <p>Developing and implementing AI models (specifically graph-based methods) to dramatically accelerate the evaluation of complex transport simulations.</p>
+            </div>
+            <div class="gs-card">
+              <span class="gs-card-tag">Combinatorial Optimization</span>
+              <p>Formulating and solving multi-objective network design and capacity allocation problems on spatial graphs.</p>
+            </div>
+            <div class="gs-card">
+              <span class="gs-card-tag">Multimodal Mobility Modeling</span>
+              <p>Utilizing and adapting agent-based behavioral simulation tools (e.g., MnMS, MATSim) to realistically capture how individuals navigate multimodal networks.</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top: 2rem;">Qualifications</h3>
+          <ul>
+            <li>A PhD (or nearing completion) in Transportation Engineering, Operations Research, Computer Science, Applied Mathematics, or a closely related quantitative field.</li>
+            <li>Deep expertise in at least one of the three core areas mentioned above, coupled with a strong willingness and motivation to learn and integrate the others.</li>
+            <li>Strong programming skills (e.g., Python, Java, C++) suitable for both machine learning development and algorithm implementation. Note that both agentic and manual coding skills are important and one does not replace the other.</li>
+            <li>Excellent written and oral communication skills in English. Knowledge of French is a plus, and willingness to learn some French is a must.</li>
+            <li>A proven track record of scientific publication in relevant journals or conferences.</li>
+          </ul>
+
+          <h3 style="margin-top: 2rem;">What We Offer</h3>
+          <ul>
+            <li>A fully funded, 24-month PostDoc contract in a vibrant research environment at the E-Mob Lab in Lyon, France.</li>
+            <li>Direct collaboration and co-supervision by an international team of leading experts: Dr. Bahman Madadi (PI), Dr. Angelo Furno (ENTPE-UGE), Dr. Shadi Sharif Azadeh (TU Delft), and Dr. Gonçalo H.A. Correia.</li>
+            <li>Funding and support for an international research visit to our partners at TU Delft (Netherlands) or Instituto Superior Técnico (Lisbon, Portugal).</li>
+            <li>Funding for international conference attendance and open-access publications.</li>
+          </ul>
+
+          <h3 style="margin-top: 2rem;">How to Apply</h3>
+          <p>Please send your application package to <strong>Bahman.MADADI at entpe.fr</strong> with the subject line <em>[GREENSHIFT PostDoc 1 Application - Your Name]</em>. Your application should include:</p>
+          <ol>
+            <li>A comprehensive CV including a list of publications.</li>
+            <li>A cover letter (max 2 pages) detailing your specific expertise in the required domains, your motivation for joining the project, and how you plan to tackle the methodological challenges (one-prompt AI-written letters will be discarded).</li>
+            <li>Full text of your best paper in your opinion (only one paper!).</li>
+            <li>Contact information for two academic references.</li>
+          </ol>
+          <p><strong>The position might be filled before the deadline, so do not wait for the last days!</strong></p>
         </div>
 
         </div>

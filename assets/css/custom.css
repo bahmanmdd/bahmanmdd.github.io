@@ -6,16 +6,31 @@
    so children are sized by content (not viewport width).
    On mobile, wide content (tab nav, grids) overflows the page.
    Fix: clip at the section level + give .prose a proper width.
+   Only applies on mobile — desktop layout is unchanged.
    ========================================================== */
-.blox-markdown {
-    overflow-x: hidden;
-}
-
 @media (max-width: 767px) {
+    .blox-markdown {
+        overflow-x: hidden;
+    }
     .blox-markdown > div,
     .blox-markdown .prose {
         width: 100%;
         max-width: 100%;
+    }
+}
+
+/* ==========================================================
+   Widen the content container on tablet/desktop screens.
+   Tailwind's `max-w-prose` (65ch, ~650px) is used on markdown
+   block pages (GREENSHIFT, Supervision, Courses, Skills) and
+   leaves large empty margins on wide screens, and crowds out
+   wide components like the GREENSHIFT tab navigation. Scoped
+   to `.blox-markdown` so it doesn't affect the bio/papers/talks
+   sections on the homepage, which use a different layout.
+   ========================================================== */
+@media (min-width: 768px) {
+    .blox-markdown .max-w-prose {
+        max-width: 1100px;
     }
 }
 
