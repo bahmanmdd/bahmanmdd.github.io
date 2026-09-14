@@ -429,7 +429,7 @@ sections:
           <ul>
             <li>A PhD (or nearing completion) in Transportation Engineering, Operations Research, Computer Science, Applied Mathematics, or a closely related quantitative field.</li>
             <li>Deep expertise in at least one of the three core areas mentioned above, coupled with a strong willingness and motivation to learn and integrate the others.</li>
-            <li>Strong programming skills (e.g., Python, Java, C++) suitable for both machine learning development and algorithm implementation. Note that both agentic and manual coding skills are important and one does not replace the other.</li>
+            <li>Strong programming skills (e.g., Python, Java, C++, Rust) suitable for both machine learning development and algorithm implementation. Note that both agentic and manual coding skills are important and one does not replace the other.</li>
             <li>Excellent written and oral communication skills in English. Knowledge of French is a plus, and willingness to learn some French is a must.</li>
             <li>A proven track record of scientific publication in relevant journals or conferences.</li>
           </ul>
