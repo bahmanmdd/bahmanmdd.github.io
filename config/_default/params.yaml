@@ -10,6 +10,9 @@ appearance:
 
 # SEO
 marketing:
+  seo:
+    site_type: Person
+    description: 'Bahman Madadi - Assistant Professor at Université Gustave Eiffel & ENTPE, EMob-Lab (Energy & Mobility Laboratory). Research in Graph Neural Networks, Deep Learning, Transport Network Design, and Zero-Emission Mobility.'
   verification:
     google: ''
     baidu: ''
@@ -20,7 +23,7 @@ header:
     enable: true
     block: 'navbar'
     fixed_to_top: true
-    show_search: false
+    show_search: true
     show_theme_chooser: false
     logo:
       text: 'Bahman Madadi'

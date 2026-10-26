@@ -7,9 +7,35 @@
    uniform dim + desaturate keeps already-dark thumbnails almost
    unchanged while toning down bright outliers, so the card grid
    reads as one consistent moody set instead of a mixed bag.
+   Prevent aspect-ratio distortion with object-fit: cover and
+   restore clarity smoothly on card hover.
    ========================================================== */
 img.object-fill {
+    object-fit: cover !important;
     filter: brightness(0.75) saturate(0.7);
+    transition: filter 0.3s ease, transform 0.5s ease-out;
+}
+
+.group:hover img.object-fill {
+    filter: brightness(0.95) saturate(0.95);
+}
+
+/* Harmonize card hover title accent with cyan theme instead of default blue */
+.group:hover h3[id^="card-title-"] {
+    color: #00d4ff !important;
+}
+
+/* ==========================================================
+   Clean article layout on desktop (hide docs file-tree sidebar).
+   HugoBlox renders a left documentation tree sidebar on xl
+   screens for individual publications, talks, and courses.
+   Hiding it on desktop keeps article pages clean and centered
+   while preserving the mobile drawer menu (<1024px).
+   ========================================================== */
+@media (min-width: 1024px) {
+    aside.hb-sidebar-container {
+        display: none !important;
+    }
 }
 
 /* ==========================================================
@@ -43,6 +69,62 @@ img.object-fill {
 @media (min-width: 768px) {
     .blox-markdown .max-w-prose {
         max-width: 1100px;
+    }
+}
+
+/* ==========================================================
+   Shared Dark Card Grid System (.gs-card-grid & .gs-card)
+   Used across GREENSHIFT and PhD Supervision markdown pages
+   for visual harmony.
+   ========================================================== */
+.gs-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.gs-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 1.35rem;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gs-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(0, 212, 255, 0.3);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.gs-card-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #00d4ff;
+    margin-bottom: 0.5rem;
+}
+
+.gs-card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    color: #f8fafc;
+}
+
+.gs-card p {
+    font-size: 0.925rem;
+    color: #94a3b8;
+    line-height: 1.55;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .gs-card-grid {
+        grid-template-columns: 1fr;
     }
 }
 

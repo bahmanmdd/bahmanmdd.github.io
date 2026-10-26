@@ -25,6 +25,7 @@ main:
   - name: Experience
     url: /experience/
     weight: 60
-  - name: Skills
-    url: /skills/
-    weight: 70
+  # Archived: Skills page hidden from navigation
+  # - name: Skills
+  #   url: /skills/
+  #   weight: 70

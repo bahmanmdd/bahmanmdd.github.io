@@ -2,6 +2,10 @@
 title: Skills & Training
 summary: Technical skills, languages, professional training, and code repositories
 type: landing
+draft: true
+build:
+  render: never
+  list: never
 
 design:
   spacing: '5rem'

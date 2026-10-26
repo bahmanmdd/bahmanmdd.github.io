@@ -9,7 +9,7 @@ publication_types: ['article-journal']
 publication: '*Expert Systems with Applications*, 243, 122814'
 featured: true
 image:
-  filename: featured.jpg
+  filename: featured.png
   focal_point: Center
   preview_only: false
   caption: ''

@@ -197,9 +197,25 @@ sections:
           .gs-title {
             font-size: 1.8rem;
           }
+          .gs-tab-nav {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+            border-bottom: none;
+            overflow-x: visible;
+          }
           .gs-tab-btn {
-            padding: 0.6rem 0.85rem;
+            justify-content: center;
+            padding: 0.65rem 0.5rem;
             font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            margin-bottom: 0;
+            white-space: normal;
+            text-align: center;
+          }
+          .gs-tab-btn.active {
+            border-color: rgba(0, 212, 255, 0.5) !important;
           }
         }
 
@@ -244,14 +260,14 @@ sections:
           </div>
         </div>
 
-        <div class="gs-tab-nav">
-          <button id="btn-overview" class="gs-tab-btn active" onclick="gsSwitchTab('overview')">🌿 Overview</button>
-          <button id="btn-team" class="gs-tab-btn" onclick="gsSwitchTab('team')">🤝 Consortium & Partners</button>
-          <button id="btn-news" class="gs-tab-btn" onclick="gsSwitchTab('news')">📢 News & Milestones</button>
-          <button id="btn-vacancies" class="gs-tab-btn" onclick="gsSwitchTab('vacancies')">📋 Vacancies</button>
+        <div class="gs-tab-nav" role="tablist" aria-label="GREENSHIFT Project Sections">
+          <button id="btn-overview" class="gs-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-overview" onclick="gsSwitchTab('overview', true)">🌿 Overview</button>
+          <button id="btn-team" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-team" onclick="gsSwitchTab('team', true)">🤝 Consortium & Partners</button>
+          <button id="btn-news" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-news" onclick="gsSwitchTab('news', true)">📢 News & Milestones</button>
+          <button id="btn-vacancies" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-vacancies" onclick="gsSwitchTab('vacancies', true)">📋 Vacancies</button>
         </div>
 
-        <div id="pane-overview" class="gs-tab-pane active">
+        <div id="pane-overview" class="gs-tab-pane active" role="tabpanel" aria-labelledby="btn-overview">
           <h3>Vision & Context</h3>
           <p>Electric vehicles (EVs) eliminate tailpipe emissions and are a cornerstone of transport decarbonization; however, widespread EV adoption alone cannot overcome urban spatial capacity limits, energy peak demands, or transport inequities. Their full potential is unlocked when integrated into a diverse, shared, and interconnected mobility ecosystem.</p>
           <p><strong>GREENSHIFT</strong> aims to determine detailed scientific and operational requirements for deploying an optimized network of <strong>multimodal mobility hubs</strong>—consolidating public transport, shared EVs, (e-)bicycles, micromobility, and fast charging in dedicated physical spaces. Co-designed with designated <strong>Zero-Emission Zones (ZEZs)</strong> and equity-sensitive incentive policies, GREENSHIFT establishes a validated simulation-optimization framework and interactive decision-support tools for an inclusive transition toward sustainable urban mobility.</p>
@@ -325,7 +341,7 @@ sections:
           </div>
         </div>
 
-        <div id="pane-team" class="gs-tab-pane">
+        <div id="pane-team" class="gs-tab-pane" role="tabpanel" aria-labelledby="btn-team">
           <h3>Academic Consortium</h3>
           <div class="gs-table-wrap">
           <table class="gs-partner-table">
@@ -369,13 +385,13 @@ sections:
           <p>Collaborations with regional and national stakeholders include <strong>CARA European Cluster for Mobility Solutions</strong>, <strong>CEREMA</strong>, and <strong>SYTRAL Mobilités</strong> to facilitate public participation and real-world deployment roadmaps.</p>
         </div>
 
-        <div id="pane-news" class="gs-tab-pane">
+        <div id="pane-news" class="gs-tab-pane" role="tabpanel" aria-labelledby="btn-news">
           <div class="gs-timeline">
             <div class="gs-timeline-item">
               <div class="gs-timeline-date">September 2026</div>
               <div style="font-weight: 600; color: #f1f5f9;">Postdoctoral Researcher Position Open (WP1)</div>
               <p style="font-size: 0.925rem; color: #94a3b8; margin-top: 0.25rem;">
-                📌 We are recruiting a Postdoctoral Researcher to lead <strong>Work Package 1</strong>. Rolling deadline: 15 October 2026. See the <a href="#" onclick="gsSwitchTab('vacancies'); return false;">Vacancies tab</a> for full details and how to apply.
+                📌 We are recruiting a Postdoctoral Researcher to lead <strong>Work Package 1</strong>. Rolling deadline: 15 October 2026. See the <a href="#vacancies" onclick="gsSwitchTab('vacancies', true); return false;">Vacancies tab</a> for full details and how to apply.
               </p>
             </div>
             <div class="gs-timeline-item">
@@ -395,7 +411,7 @@ sections:
           </div>
         </div>
 
-        <div id="pane-vacancies" class="gs-tab-pane">
+        <div id="pane-vacancies" class="gs-tab-pane" role="tabpanel" aria-labelledby="btn-vacancies">
           <div class="gs-badges" style="margin-bottom: 1.5rem;">
             <span class="gs-badge gs-badge-cyan">📌 WP1 · Postdoctoral Researcher</span>
             <span class="gs-badge gs-badge-green">⏳ Deadline (rolling): 15 October 2026</span>
@@ -456,9 +472,12 @@ sections:
         </div>
 
         <script>
-        function gsSwitchTab(tabId) {
+        function gsSwitchTab(tabId, updateUrl) {
+          var validTabs = ['overview', 'team', 'news', 'vacancies'];
+          if (validTabs.indexOf(tabId) === -1) return;
           document.querySelectorAll('.gs-tab-btn').forEach(function(btn) {
             btn.classList.remove('active');
+            btn.setAttribute('aria-selected', 'false');
           });
           document.querySelectorAll('.gs-tab-pane').forEach(function(pane) {
             pane.classList.remove('active');
@@ -467,9 +486,26 @@ sections:
           var targetPane = document.getElementById('pane-' + tabId);
           if (targetBtn && targetPane) {
             targetBtn.classList.add('active');
+            targetBtn.setAttribute('aria-selected', 'true');
             targetPane.classList.add('active');
+            if (updateUrl && window.history && window.history.replaceState) {
+              var newHash = tabId === 'overview' ? window.location.pathname : '#' + tabId;
+              window.history.replaceState(null, '', newHash);
+            }
           }
         }
+        function gsInitTabFromHash() {
+          var hash = (window.location.hash || '').replace(/^#/, '').toLowerCase();
+          if (hash) {
+            gsSwitchTab(hash, false);
+          }
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', gsInitTabFromHash);
+        } else {
+          gsInitTabFromHash();
+        }
+        window.addEventListener('hashchange', gsInitTabFromHash);
         </script>
     design:
       columns: '1'

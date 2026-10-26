@@ -11,7 +11,7 @@ publication_types: ['article-journal']
 publication: '*Journal of Advanced Transportation*, 2021, 1–17'
 featured: true
 image:
-  filename: featured.jpg
+  filename: featured.png
   focal_point: Center
   preview_only: false
   caption: ''

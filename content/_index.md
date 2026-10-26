@@ -12,9 +12,10 @@ sections:
     content:
       username: admin
       text: ''
-      button:
-        text: Download Resume
-        url: uploads/BahmanMadadi_Resume.pdf
+      # Archived: Download Resume button removed
+      # button:
+      #   text: Download Resume
+      #   url: uploads/BahmanMadadi_Resume.pdf
       headings:
         about: ''
         education: ''
@@ -39,6 +40,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+      show_read_time: false
   - block: collection
     content:
       title: Recent Publications
@@ -46,16 +48,19 @@ sections:
       filters:
         folders:
           - publications
-        exclude_featured: false
+        exclude_featured: true
     design:
       view: citation
   - block: collection
     id: talks
     content:
       title: Recent Talks
+      count: 6
       filters:
         folders:
           - events
     design:
-      view: card
+      view: article-grid
+      columns: 2
+      show_read_time: false
 ---
