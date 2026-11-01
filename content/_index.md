@@ -33,6 +33,7 @@ sections:
     id: papers
     content:
       title: Featured Publications
+      count: 6
       filters:
         folders:
           - publications
@@ -48,7 +49,7 @@ sections:
       filters:
         folders:
           - publications
-        exclude_featured: true
+        exclude_featured: false
     design:
       view: citation
   - block: collection
