@@ -22,4 +22,8 @@ image:
   focal_point: Center
   preview_only: false
   caption: ''
+
+links:
+  - name: Publication
+    url: /publications/b2026-cav-readiness/
 ---

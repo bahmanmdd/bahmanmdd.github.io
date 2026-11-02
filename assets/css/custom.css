@@ -60,23 +60,84 @@ img.object-fill {
 /* ==========================================================
    Widen the content container on tablet/desktop screens.
    Tailwind's `max-w-prose` (65ch, ~650px) is used on markdown
-   block pages (GREENSHIFT, Supervision, Courses, Skills) and
+   block pages (GREENSHIFT, Team, Experience, Courses, Skills) and
    leaves large empty margins on wide screens, and crowds out
-   wide components like the GREENSHIFT tab navigation. Scoped
+   wide components like the tab navigation. Scoped
    to `.blox-markdown` so it doesn't affect the bio/papers/talks
    sections on the homepage, which use a different layout.
    ========================================================== */
 @media (min-width: 768px) {
-    .blox-markdown .max-w-prose {
+    .blox-markdown .max-w-prose,
+    .page-body > .max-w-prose,
+    .page-body > .max-w-prose > article {
         max-width: 1100px;
+        width: 100%;
     }
 }
 
 /* ==========================================================
-   Shared Dark Card Grid System (.gs-card-grid & .gs-card)
-   Used across GREENSHIFT and PhD Supervision markdown pages
-   for visual harmony.
+   Shared Tab System & Dark Card Grid (.gs-tab-*, .gs-card-*)
+   Used across GREENSHIFT, Publications, Team, and Experience
+   pages for visual harmony.
    ========================================================== */
+.gs-tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.gs-tab-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.gs-tab-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.75rem 1.2rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #94a3b8;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+    border-radius: 6px 6px 0 0;
+}
+
+.gs-tab-btn:hover {
+    color: #f1f5f9;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.gs-tab-btn.active {
+    color: #00d4ff !important;
+    border-bottom-color: #00d4ff !important;
+    background: rgba(0, 212, 255, 0.08) !important;
+}
+
+.gs-tab-pane {
+    display: none;
+}
+
+.gs-tab-pane.active {
+    display: block;
+    animation: gsFadeIn 0.25s ease-in-out forwards;
+}
+
+@keyframes gsFadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .gs-card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -122,9 +183,68 @@ img.object-fill {
     margin: 0;
 }
 
+.gs-callout {
+    background: rgba(0, 212, 255, 0.06);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-left: 4px solid #00d4ff;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin: 0 0 1.5rem 0;
+    font-size: 0.95rem;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+.gs-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.gs-partner-table {
+    width: 100%;
+    min-width: 500px;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.gs-partner-table th,
+.gs-partner-table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: left;
+    font-size: 0.925rem;
+}
+
+.gs-partner-table th {
+    color: #00d4ff;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.02);
+}
+
 @media (max-width: 600px) {
     .gs-card-grid {
         grid-template-columns: 1fr;
+    }
+    .gs-tab-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        border-bottom: none;
+        overflow-x: visible;
+    }
+    .gs-tab-btn {
+        justify-content: center;
+        padding: 0.65rem 0.5rem;
+        font-size: 0.85rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        margin-bottom: 0;
+        white-space: normal;
+        text-align: center;
+    }
+    .gs-tab-btn.active {
+        border-color: rgba(0, 212, 255, 0.5) !important;
     }
 }
 

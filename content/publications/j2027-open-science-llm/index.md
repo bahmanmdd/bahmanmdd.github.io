@@ -12,7 +12,7 @@ authors:
   - Gregory S Macfarlane
   - admin
   - Cathy Wu
-date: '2027-01-01T00:00:00Z'
+date: '2026-06-01T00:00:00Z'
 publishDate: '2026-10-01T00:00:00Z'
 lastmod: '2026-11-01T00:00:00Z'
 publication_types: ['article-journal']
