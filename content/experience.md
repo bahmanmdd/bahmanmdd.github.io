@@ -12,9 +12,9 @@ sections:
       title: Experience
       text: |
         <div class="gs-tab-nav" role="tablist" aria-label="Experience Sections" style="margin-top: 1rem;">
-          <button id="btn-positions" class="gs-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-positions" onclick="expSwitchTab('positions', true)">💼 Positions</button>
-          <button id="btn-education" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-education" onclick="expSwitchTab('education', true)">🎓 Education</button>
-          <button id="btn-service" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-service" onclick="expSwitchTab('service', true)">🤝 Service</button>
+          <button id="btn-positions" class="gs-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-positions" onclick="expSwitchTab('positions', true)">Positions</button>
+          <button id="btn-education" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-education" onclick="expSwitchTab('education', true)">Education</button>
+          <button id="btn-service" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-service" onclick="expSwitchTab('service', true)">Service</button>
         </div>
 
         <div id="pane-positions" class="gs-tab-pane active" role="tabpanel" aria-labelledby="btn-positions">
@@ -186,9 +186,9 @@ sections:
 
           <h3 style="margin-top: 2rem;">Conference organisation</h3>
           <ul>
-            <li>Co-organiser, with Silvia Varotto (TU Delft), of a workshop on reproducible research in transportation at the hEART 2026 PhD summer school, Paris, 2026</li>
+            <li>Co-organiser, with Silvia Varotto, of a workshop on reproducible research in transportation at the hEART 2026 PhD summer school, Paris, 2026</li>
             <li>Programme Committee member, INSTR 2026 – 10th International Symposium on Transport Network Resilience, Lyon, 2026</li>
-            <li>Session chair: hEART 2026 (Paris), INSTR 2026 (Lyon), EWGT 2023 (Santander)</li>
+            <li>Session chair: INSTR 2026 (Lyon), EWGT 2023 (Santander)</li>
           </ul>
         </div>
 

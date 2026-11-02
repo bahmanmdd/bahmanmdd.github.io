@@ -261,10 +261,10 @@ sections:
         </div>
 
         <div class="gs-tab-nav" role="tablist" aria-label="GREENSHIFT Project Sections">
-          <button id="btn-overview" class="gs-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-overview" onclick="gsSwitchTab('overview', true)">🌿 Overview</button>
-          <button id="btn-team" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-team" onclick="gsSwitchTab('team', true)">🤝 Consortium & Partners</button>
-          <button id="btn-news" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-news" onclick="gsSwitchTab('news', true)">📢 News & Milestones</button>
-          <button id="btn-vacancies" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-vacancies" onclick="gsSwitchTab('vacancies', true)">📋 Vacancies</button>
+          <button id="btn-overview" class="gs-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-overview" onclick="gsSwitchTab('overview', true)">Overview</button>
+          <button id="btn-team" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-team" onclick="gsSwitchTab('team', true)">Consortium & Partners</button>
+          <button id="btn-news" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-news" onclick="gsSwitchTab('news', true)">News & Milestones</button>
+          <button id="btn-vacancies" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-vacancies" onclick="gsSwitchTab('vacancies', true)">Vacancies</button>
         </div>
 
         <div id="pane-overview" class="gs-tab-pane active" role="tabpanel" aria-labelledby="btn-overview">
@@ -388,10 +388,17 @@ sections:
         <div id="pane-news" class="gs-tab-pane" role="tabpanel" aria-labelledby="btn-news">
           <div class="gs-timeline">
             <div class="gs-timeline-item">
+              <div class="gs-timeline-date">February 2027</div>
+              <div style="font-weight: 600; color: #f1f5f9;">Official Project Kickoff</div>
+              <p style="font-size: 0.925rem; color: #94a3b8; margin-top: 0.25rem;">
+                Official project launch and recruitment kickoff for Postdoctoral researchers and PhD candidates.
+              </p>
+            </div>
+            <div class="gs-timeline-item">
               <div class="gs-timeline-date">September 2026</div>
               <div style="font-weight: 600; color: #f1f5f9;">Postdoctoral Researcher Position Open (WP1)</div>
               <p style="font-size: 0.925rem; color: #94a3b8; margin-top: 0.25rem;">
-                📌 We are recruiting a Postdoctoral Researcher to lead <strong>Work Package 1</strong>. Rolling deadline: 15 October 2026. See the <a href="#vacancies" onclick="gsSwitchTab('vacancies', true); return false;">Vacancies tab</a> for full details and how to apply.
+                📌 We are recruiting a Postdoctoral Researcher to lead <strong>Work Package 1</strong>. Rolling deadline: October 2026. See the <a href="#vacancies" onclick="gsSwitchTab('vacancies', true); return false;">Vacancies tab</a> for full details and how to apply.
               </p>
             </div>
             <div class="gs-timeline-item">
@@ -401,20 +408,13 @@ sections:
                 🎉 <strong>GREENSHIFT</strong> is officially accepted for funding under the French National Research Agency (ANR) <strong>2026 AAPG (JCJC)</strong> call under Theme H.18.
               </p>
             </div>
-            <div class="gs-timeline-item">
-              <div class="gs-timeline-date">February 2027</div>
-              <div style="font-weight: 600; color: #f1f5f9;">Official Project Kickoff</div>
-              <p style="font-size: 0.925rem; color: #94a3b8; margin-top: 0.25rem;">
-                Official project launch and recruitment kickoff for Postdoctoral researchers and PhD candidates.
-              </p>
-            </div>
           </div>
         </div>
 
         <div id="pane-vacancies" class="gs-tab-pane" role="tabpanel" aria-labelledby="btn-vacancies">
           <div class="gs-badges" style="margin-bottom: 1.5rem;">
             <span class="gs-badge gs-badge-cyan">📌 WP1 · Postdoctoral Researcher</span>
-            <span class="gs-badge gs-badge-green">⏳ Deadline (rolling): 15 October 2026</span>
+            <span class="gs-badge gs-badge-green">⏳ Deadline (rolling): October 2026</span>
             <span class="gs-badge gs-badge-purple">🚀 Start Date: February 2027</span>
           </div>
 

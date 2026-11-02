@@ -12,8 +12,8 @@ banner:
 ---
 
 <div class="gs-tab-nav" role="tablist" aria-label="Publications and Software Tabs" style="margin-top: 2rem;">
-  <button id="btn-publications" class="gs-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-publications" onclick="pubSwitchTab('publications', true)">📄 Publications</button>
-  <button id="btn-software" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-software" onclick="pubSwitchTab('software', true)">💻 Software &amp; Data</button>
+  <button id="btn-publications" class="gs-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-publications" onclick="pubSwitchTab('publications', true)">Publications</button>
+  <button id="btn-software" class="gs-tab-btn" role="tab" aria-selected="false" aria-controls="pane-software" onclick="pubSwitchTab('software', true)">Software &amp; Data</button>
 </div>
 
 <div id="pane-software" class="gs-tab-pane" role="tabpanel" aria-labelledby="btn-software">
