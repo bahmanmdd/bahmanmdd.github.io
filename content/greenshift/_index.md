@@ -1,7 +1,7 @@
 ---
 title: "GREENSHIFT"
 linkTitle: "GREENSHIFT"
-summary: "GREEN Roadmap for Sustainable Hubs and Integrated Future Transport — ANR JCJC Research Project (2027–2031)"
+summary: "GREEN Roadmap for Sustainable Hubs and Integrated Future Transport — ANR JCJC Research Project (ANR-26-CE22-3470, 2027–2031)"
 date: '2026-08-18'
 type: landing
 aliases:
@@ -254,7 +254,7 @@ sections:
           <div class="gs-title">GREENSHIFT</div>
           <div class="gs-subtitle">GREEN Roadmap for Sustainable Hubs and Integrated Future Transport</div>
           <div class="gs-badges">
-            <span class="gs-badge gs-badge-cyan">🏛️ ANR JCJC 2026</span>
+            <span class="gs-badge gs-badge-cyan">🏛️ ANR JCJC 2026 · ANR-26-CE22-3470</span>
             <span class="gs-badge gs-badge-green">⏱️ 48 Months (Feb 2027 – Jan 2031)</span>
             <span class="gs-badge gs-badge-purple">👤 PI & Coordinator: Dr. Bahman Madadi (ENTPE)</span>
           </div>
@@ -405,7 +405,7 @@ sections:
               <div class="gs-timeline-date">August 2026</div>
               <div style="font-weight: 600; color: #f1f5f9;">Grant Acceptance Announcement</div>
               <p style="font-size: 0.925rem; color: #94a3b8; margin-top: 0.25rem;">
-                🎉 <strong>GREENSHIFT</strong> is officially accepted for funding under the French National Research Agency (ANR) <strong>2026 AAPG (JCJC)</strong> call under Theme H.18.
+                🎉 <strong>GREENSHIFT</strong> is officially accepted for funding under the French National Research Agency (ANR) <strong>2026 AAPG (JCJC)</strong> call under Theme H.18 (Grant Agreement No. <strong>ANR-26-CE22-3470</strong>).
               </p>
             </div>
           </div>
