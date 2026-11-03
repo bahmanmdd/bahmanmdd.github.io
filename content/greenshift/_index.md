@@ -256,7 +256,7 @@ sections:
           <div class="gs-badges">
             <span class="gs-badge gs-badge-cyan">🏛️ ANR JCJC 2026 · ANR-26-CE22-3470</span>
             <span class="gs-badge gs-badge-green">⏱️ 48 Months (Feb 2027 – Jan 2031)</span>
-            <span class="gs-badge gs-badge-purple">👤 PI & Coordinator: Dr. Bahman Madadi (ENTPE)</span>
+            <span class="gs-badge gs-badge-purple">👤 PI & Coordinator: Dr. Bahman Madadi (ENTPE & Université Gustave Eiffel)</span>
           </div>
         </div>
 
@@ -297,22 +297,22 @@ sections:
             <div class="gs-card">
               <span class="gs-card-tag">WP0 · Management & Dissemination</span>
               <div class="gs-card-title">Project Management & Open Science</div>
-              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE)<br>Coordinates project activities, operational continuity, ethics, FAIR data management (DMP OPIDoR), open-source releases, and scientific communication.</p>
+              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE & Université Gustave Eiffel)<br>Coordinates project activities, operational continuity, ethics, FAIR data management (DMP OPIDoR), open-source releases, and scientific communication.</p>
             </div>
             <div class="gs-card">
               <span class="gs-card-tag">WP1 · Infrastructure AI & Optimization</span>
               <div class="gs-card-title">Simulation-Based Hub Optimization</div>
-              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE)<br><strong>Partners:</strong> ENTPE, UGE, TU Delft<br>Combines dynamic agent-based multimodal choice modeling with Physics-Informed Graph Neural Network (PIGNN) surrogates and active learning for scalable network design.</p>
+              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE & Université Gustave Eiffel)<br><strong>Partners:</strong> ENTPE, UGE, TU Delft<br>Combines dynamic agent-based multimodal choice modeling with Physics-Informed Graph Neural Network (PIGNN) surrogates and active learning for scalable network design.</p>
             </div>
             <div class="gs-card">
               <span class="gs-card-tag">WP2 · Behavioral Economics & Equity</span>
               <div class="gs-card-title">Multi-Instrument Incentive Strategies</div>
-              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE)<br><strong>Partners:</strong> ENTPE, UGE, University of Luxembourg<br>Investigates coordinated bundles of push (ZEZ restrictions) and pull (pricing, tradable credit schemes, gamification) instruments, ensuring mobility equity for vulnerable groups.</p>
+              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE & Université Gustave Eiffel)<br><strong>Partners:</strong> ENTPE, UGE, University of Luxembourg<br>Investigates coordinated bundles of push (ZEZ restrictions) and pull (pricing, tradable credit schemes, gamification) instruments, ensuring mobility equity for vulnerable groups.</p>
             </div>
             <div class="gs-card">
               <span class="gs-card-tag">WP3 · Governance & Transition</span>
               <div class="gs-card-title">Inclusive Transition Strategies</div>
-              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE)<br><strong>Partners:</strong> ENTPE, UGE, DLR (German Aerospace Center)<br>Bridges quantitative models with participatory Q-methodology and interactive dashboards to co-create consensus-driven transition roadmaps with stakeholders.</p>
+              <p><strong>Lead:</strong> Dr. Bahman Madadi (ENTPE & Université Gustave Eiffel)<br><strong>Partners:</strong> ENTPE, UGE, DLR (German Aerospace Center)<br>Bridges quantitative models with participatory Q-methodology and interactive dashboards to co-create consensus-driven transition roadmaps with stakeholders.</p>
             </div>
           </div>
 
@@ -354,7 +354,7 @@ sections:
             </thead>
             <tbody>
               <tr>
-                <td><strong>ENTPE / E-Mob Lab (Host)</strong></td>
+                <td><strong>EMob-Lab (ENTPE & Université Gustave Eiffel)</strong></td>
                 <td>Dr. Bahman Madadi (Coordinator/PI)<br>Dr. Angelo Furno<br>Dr. Christine Buisson</td>
                 <td>Project Coordination, AI/Surrogate Optimization, Stakeholder Engagement</td>
               </tr>
